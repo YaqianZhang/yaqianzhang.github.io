@@ -15,17 +15,18 @@
   <body>
     <div class="wrapper">
       <header>
-	  <div><img src="/images/images/QORG7353.jpg" alt="hi" class="inline"/ width="120"></div>
+	  <div><img src="{{site.baseurl}}/images/photo.jpg" alt="hi" class="inline"/ width="140"></div>
 
         <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
         <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
 
         <ul>
           {% if site.show_downloads %}
-            <li ><a href="research">Research</a></li>
-            <li ><a  href="about">About</a></li>
+		   <li ><a href="{{site.baseurl}}/">Home</a>
+            <li ><a href="{{site.baseurl}}/research">Research</a></li>
+            <li ><a  href="{{site.baseurl}}/about">About</a></li>
           {% endif %}
-          <li><a  href="{{ site.github.repository_url }}">Resources</a></li>
+          <li><a  href="{{site.baseurl}}/resources">Resources</a></li>
         </ul>
 
         {% if site.github.is_project_page %}
