@@ -15,6 +15,8 @@
   <body>
     <div class="wrapper">
       <header>
+	  <div><img src="/images/images/QORG7353.jpg" alt="hi" class="inline"/ width="480"></div>
+
         <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
         <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
 
@@ -27,7 +29,7 @@
         </ul>
 
         {% if site.github.is_project_page %}
-          <p class="header">This page is maintained by <a class="header name" href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+          <!--<p class="header">This page is maintained by <a class="header name" href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>!-->
         {% endif %}
 
         {% if site.github.is_user_page %}
