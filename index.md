@@ -2,19 +2,40 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+<!-- Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
 
 There should be whitespace between paragraphs.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project. -->
+## Welcome to Yaqian's homepage!##
+## Bio
 
-# Header 1
+I'm a PhD candidate in Nanyang Technological University (NTU). Before coming to Singapore, I got my Bachelor degree from Shanghai Jiao Tong University (SJTU), in 2015.
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+## Research Interests
+*   Reinforcement Learning
+*   Machine Learning
+*   Human Computer Interaction
 
-## Header 2
+## News
+* [Aug.2019] Submitted Ph.D. thesis for review.
+* [Dec.2018] A paper accepted at AAMAS'19
+
+## Contact
+yzhang117@e.ntu.edu.sg
+
+## Publications
+* Yaqian Zhang, Wooi-Boon Goh, "Bootstrapped Policy Gradient for Difficulty Adaptation in Intelligent Tutoring Systems" Proceedings of the 18th International Joint Conference on Autonomous Agents and Multi-Agent Systems (AAMAS'19).
+
+* Yaqian Zhang, Wooi-Boon Goh, "The influence of peer accountability on attention during gameplay." Computers in Human Behavior 84 (2018): 18-28.
+
+* Yaqian Zhang, Jacek Mańdziuk, Chai Hiok Quek, Wooi-Boon Goh, "Curvature-based method for determining the number of clusters." Information Sciences 415 (2017): 414-428.
+
+* Enmei Tu, Yaqian Zhang, Lin Zhu, Jie Yang, Nikola Kasabov, "A graph-based semi-supervised k nearest-neighbor method for nonlinear manifold distributed data classification". Information Sciences 367-368 (2016): 673-688.
+
+* Enmei Tu, Jie Yang, Nikola Kasabov, Yaqian Zhang, "Posterior Distribution Learning (PDL): A novel supervised learning framework using unlabeled samples to improve classification performance". Neurocomputing 157(2015): 173-186.
 
 > This is a blockquote following a header.
 >
