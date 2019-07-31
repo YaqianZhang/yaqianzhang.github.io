@@ -9,10 +9,10 @@ layout: default
 There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project. -->
-# Welcome to Yaqian's homepage!##
+# Welcome to Yaqian's homepage!
 ## Bio
 
-I'm a PhD candidate in Nanyang Technological University (NTU). Before coming to Singapore, I got my Bachelor degree from Shanghai Jiao Tong University (SJTU), in 2015.
+I'm a fourth-year Ph.D. candidate in [Nanyang Technological University (NTU)](https://www.ntu.edu.sg). Before coming to Singapore, I got my Bachelor degree from [Shanghai Jiao Tong University (SJTU)](http://en.sjtu.edu.cn/), in 2015. I'm currently working on developing efficient machine learning algorithms to facilitate human-computer interaction.
 
 ## Research Interests
 *   Reinforcement Learning
@@ -37,9 +37,6 @@ yzhang117@e.ntu.edu.sg
 
 * Enmei Tu, Jie Yang, Nikola Kasabov, **Yaqian Zhang**, "Posterior Distribution Learning (PDL): A novel supervised learning framework using unlabeled samples to improve classification performance". Neurocomputing 157(2015): 173-186.
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
 
 <!-- ### Header 3
 
