@@ -1,0 +1,20 @@
+---
+layout: default
+title: Selected Research Projects
+---
+	<h1>{{ page.title }}</h1>
+	<ul class="posts">
+
+	  {% for post in site.posts %}
+	    <li>
+		    <div>
+		<span><strong>{{ post.label }}:<strong></span>
+		<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+			</div>
+			<div>
+			<img src="{{post.imgstr}}" height="250"/>
+				</div>
+	    </li>
+
+	  {% endfor %}
+	</ul>
