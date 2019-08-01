@@ -3,7 +3,7 @@ layout: post
 title: "The influence of peer accountability on attention during gameplay"
 date: 2018-02-16
 label: "Cooperative Gameplay"
-imgstr: "{{site.baseurl}}/images/fig1.PNG"
+imgstr: "/images/fig1.PNG"
 ---
 
 The comparative advantages of competitive and cooperative multiplayer gameplay designs have been
@@ -12,7 +12,7 @@ The results show that players demonstrate higher levels of attention when they w
 to their partners as they make significantly less errors when cooperating than when competing. In
 addition, the individual response time data gathered reveals that peer accountability has a more positive influence on the performance of the slower partner and this performance improvement was not sustainable under situation where large performance disparity existed within the team. Physical proximity however, was not observed to have any significant positive influence on players’ performance during
 cooperative gameplay.
-<div><img src="{{site.baseurl}}/images/fig1.PNG" alt="hi" align = "center" height="400"/></div>
+<div><img src="/images/fig1.PNG" alt="hi" align = "center" height="400"/></div>
 
-<div><img src="{{site.baseurl}}/images/fig2.PNG" alt="hi" align = "center" height="400"/></div>
+<div><img src="/images/fig2.PNG" alt="hi" align = "center" height="400"/></div>
 
