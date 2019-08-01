@@ -3,7 +3,7 @@ layout: post
 title: "The influence of peer accountability on attention during gameplay"
 date: 2018-02-16
 label: "Cooperative Gameplay"
-imgstr: "../../images/images/fig1.PNG"
+imgstr: "{{site.baseurl}}/images/fig1.PNG"
 ---
 
 The comparative advantages of competitive and cooperative multiplayer gameplay designs have been
