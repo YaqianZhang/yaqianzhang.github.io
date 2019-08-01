@@ -10,7 +10,6 @@ There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project. -->
 # Welcome to Yaqian's homepage!
-## Bio
 
 I'm a fourth-year Ph.D. candidate in [Nanyang Technological University (NTU)](https://www.ntu.edu.sg). Before coming to Singapore, I got my Bachelor degree from [Shanghai Jiao Tong University (SJTU)](http://en.sjtu.edu.cn/), in 2015. I'm currently working on developing efficient machine learning algorithms to facilitate human-computer interaction.
 
@@ -24,7 +23,7 @@ I'm a fourth-year Ph.D. candidate in [Nanyang Technological University (NTU)](ht
 * [Dec.2018]  A paper accepted at AAMAS'19
 
 ## Contact
-yzhang117@e.ntu.edu.sg
+Email: yzhang117@e.ntu.edu.sg
 
 ## Publications
 * **Yaqian Zhang**, Wooi-Boon Goh, "Bootstrapped Policy Gradient for Difficulty Adaptation in Intelligent Tutoring Systems" Proceedings of the 18th International Joint Conference on Autonomous Agents and Multi-Agent Systems (AAMAS'19).
