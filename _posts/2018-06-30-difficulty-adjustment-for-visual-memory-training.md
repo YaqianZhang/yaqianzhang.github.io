@@ -3,7 +3,7 @@ layout: post
 title: "Dynamic difficulty adjustment for visual memory training"
 date: 2018-06-30
 label: "Intelligent Tutoring Systems"
-imgstr: "../../images/images/MainGameScreen.png"
+imgstr: "{{site.baseurl}}/images/MainGameScreen.png"
 ---
 
 <b>Research Objective:</b>
@@ -19,4 +19,4 @@ The participants will play an online game for about 30 minutes with no foreseeab
 
 
 
-<img src="../../../../images/images/MainGameScreen.png" alt="hi" class="inline" width="600" />
+<img src="{{site.baseurl}}/images/MainGameScreen.png" alt="hi" class="inline" width="600" />
