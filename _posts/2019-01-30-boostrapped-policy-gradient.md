@@ -3,7 +3,7 @@ layout: post
 title: "Sample Efficient Bootstrapped Policy Gradient for Difficulty Adaptation"
 date: 2018-06-30
 label: "Reinforcement Learning"
-imgstr: "URL/images/fig4_0.PNG"
+imgstr: "/images/fig4_0.PNG"
 ---
 
 
@@ -30,6 +30,6 @@ to multi-dimensional continuous action domain in general actorcritic
 reinforcement learning algorithms with no prior knowledge
 required.
 
-<img src="URL/images/fig4_1.PNG" alt="hi" class="inline" width="600" />
+<img src="/images/fig4_1.PNG" alt="hi" class="inline" width="600" />
 
 
