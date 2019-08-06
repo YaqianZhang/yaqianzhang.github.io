@@ -26,7 +26,7 @@ I'm a fourth-year Ph.D. candidate in [Nanyang Technological University (NTU)](ht
 Email: yzhang117@e.ntu.edu.sg
 
 ## Publications
-* **Yaqian Zhang**, Wooi-Boon Goh, "Bootstrapped Policy Gradient for Difficulty Adaptation in Intelligent Tutoring Systems" Proceedings of the 18th International Joint Conference on Autonomous Agents and Multi-Agent Systems (AAMAS'19).
+* **Yaqian Zhang**, Wooi-Boon Goh, "Bootstrapped Policy Gradient for Difficulty Adaptation in Intelligent Tutoring Systems" Proceedings of the 18th International Joint Conference on Autonomous Agents and Multi-Agent Systems (AAMAS'19). [(paper)](papers/17_YaqianZhang_Curvature_Cluster_InformationScience.pdf)
 
 * **Yaqian Zhang**, Wooi-Boon Goh, "The influence of peer accountability on attention during gameplay." Computers in Human Behavior 84 (2018): 18-28.
 
