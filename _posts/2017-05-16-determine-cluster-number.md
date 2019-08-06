@@ -11,6 +11,7 @@ Determining the number of clusters is one of the research questions attracting c
 $$
 \Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
 $$
+why
 
 <img src="/images/fig2_1.PNG"  height="200" />
 
