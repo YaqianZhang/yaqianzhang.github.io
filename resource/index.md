@@ -3,7 +3,7 @@ layout: default
 ---
 ## Conferences Dates
 
-Name | Submission Deadline | Place 
+Name | Submission Deadline | Conference Location 
 ------------ | -------------| -------------
 [AAAI-20](https://aaai.org/Conferences/AAAI-20/)| 05-Sep-2019| New York, USA
 [ICLR-20](https://iclr.cc/) | 25-Sep-2019| Addis Ababa, ETHIOPIA 
