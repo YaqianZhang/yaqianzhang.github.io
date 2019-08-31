@@ -11,10 +11,10 @@ Determining the number of clusters is one of the research questions attracting c
 
 ## Maxinum Curvature Point at the Evaluation Graph
 
-<img src="/images/curvature_pic/fig1_1.PNG"  height="200" />
-<img src="/images/curvature_pic/fig1_2.PNG"  height="200" />
-<img src="/images/curvature_pic/fig1_3.PNG"  height="200" />
-<img src="/images/curvature_pic/fig1_4.PNG"  height="200" />
+<img src="/images/curvature_pic/fig1_1.png"  height="200" />
+<img src="/images/curvature_pic/fig1_2.png"  height="200" />
+<img src="/images/curvature_pic/fig1_3.png"  height="200" />
+<img src="/images/curvature_pic/fig1_4.png"  height="200" />
 ## Beyond Curvature
 
 ## Detection of H
