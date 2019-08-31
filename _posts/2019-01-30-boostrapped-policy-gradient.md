@@ -43,7 +43,7 @@ Consider a piece of prior information which states certain actions are likely to
 ## What is BPG?
 * Bootstrapped Policy Gradient with Better/Worse Actions 
 The key idea proposed here is to use bootstrap policy gradient with better/worse actions by updating the probability of \textit{a set of actions} instead of a single action in the gradient sample. Specifically, for each action, we defined _Better Action Set_, which includes the actions that might be better than the current action, and _Worse Action Set_ which contains the worse actions than the current action. 
-<img src="/images/bpg_pic/better_worse.png" alt="hi" class="inline" width="400" />
+<img src="/images/bpg_pic/better_worse.png" alt="hi" class="inline" width="500" />
 
 The bootstrapped policy gradient is defined as:
 <img src="/images/bpg_pic/bpg.png" alt="hi" class="inline" width="600" />
@@ -59,11 +59,11 @@ Compared to traditional policy gradient, the proposed method enjoys several adva
 
 ## How to ensure unbiased convergence?
 
+Equivalent Expression of BPG
+<img src="/images/bpg_pic/eq.png" alt="hi" class="inline" width="300" />
 Surrogate Policy Gradient Theorem
 <img src="/images/bpg_pic/convergence.png" alt="hi" class="inline" width="600" />
-Equivalent Expression of BPG
 
-<img src="/images/bpg_pic/surrogate.png" alt="hi" class="inline" width="300" />
 
 ## How to obtain Better/Worse Action set in practice?
 The remaining questions is how to obtain the prior information of Better/Worse Actions. In the case of difficulty adaptation, there happens to be a convenient way to construct _approximate better/worse action sets_ from prior information of difficulty ranking. Specifically, if a question is observed to be too easy or too hard for the user, then those questions which are even easier or harder than the current one can be considered as worse actions;  and in contrast those questions which are harder or easier than the current one can be considered as better actions. 
