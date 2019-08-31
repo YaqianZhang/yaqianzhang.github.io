@@ -41,11 +41,11 @@ Policy gradient method is considered to be more stable than value-based RL metho
 # Bootstrapped Policy Gradient (BPG)
 Consider a piece of prior information which states certain actions are likely to have higher/lower reward than others. We will first discuss how to incorporate such prior information into policy gradient with unbiased convergence guarantee and then discuss how such information can be obtained in practice.
 ## What is BPG?
+* Bootstrapped Policy Gradient with Better/Worse Actions 
 The key idea proposed here is to use bootstrap policy gradient with better/worse actions by updating the probability of \textit{a set of actions} instead of a single action in the gradient sample. Specifically, for each action, we defined _Better Action Set_, which includes the actions that might be better than the current action, and _Worse Action Set_ which contains the worse actions than the current action. 
 <img src="/images/bpg_pic/better_worse.png" alt="hi" class="inline" width="600" />
 
 The bootstrapped policy gradient is defined as:
-* Bootstrapped Policy Gradient with Better/Worse Actions 
 <img src="/images/bpg_pic/bpg.png" alt="hi" class="inline" width="600" />
 
 ## Why BPG?
