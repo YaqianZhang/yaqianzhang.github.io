@@ -28,7 +28,7 @@ both in theory and in practice. We also generalize BPG
 to multi-dimensional continuous action domain in general actor-critic
 reinforcement learning algorithms with no prior knowledge required.
 
-## Policy Gradient
+## Difficulty Adaptation with Reinforcement Learning
 The problem of difficulty adaptation can be formalized using Reinforcement Leanring by taking question difficulty as action and the suitability of a difficulty as reward:
 
 <img src="/images/bpg_pic/system.png" alt="hi" class="inline" width="400" />
@@ -43,7 +43,7 @@ Consider a piece of prior information which states certain actions are likely to
 ## What is BPG?
 * Bootstrapped Policy Gradient with Better/Worse Actions 
 The key idea proposed here is to use bootstrap policy gradient with better/worse actions by updating the probability of \textit{a set of actions} instead of a single action in the gradient sample. Specifically, for each action, we defined _Better Action Set_, which includes the actions that might be better than the current action, and _Worse Action Set_ which contains the worse actions than the current action. 
-<img src="/images/bpg_pic/better_worse.png" alt="hi" class="inline" width="600" />
+<img src="/images/bpg_pic/better_worse.png" alt="hi" class="inline" width="400" />
 
 The bootstrapped policy gradient is defined as:
 <img src="/images/bpg_pic/bpg.png" alt="hi" class="inline" width="600" />
@@ -59,9 +59,9 @@ Compared to traditional policy gradient, the proposed method enjoys several adva
 
 ## How to ensure unbiased convergence?
 
-* Surrogate Policy Gradient Theorem
+Surrogate Policy Gradient Theorem
 <img src="/images/bpg_pic/convergence.png" alt="hi" class="inline" width="600" />
-* Equivalent Expression of BPG
+Equivalent Expression of BPG
 
 <img src="/images/bpg_pic/surrogate.png" alt="hi" class="inline" width="300" />
 
