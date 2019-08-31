@@ -37,13 +37,18 @@ In this way, the difficulty adaptation problem can be solved by reinforcement le
 
 <img src="/images/bpg_pic/pg.png" alt="hi" class="inline" width="300" />
 
-Policy gradient method is considered to be more stable than value-based RL method but a major drawback is its sample inefficiency. Due to the high variance in the gradient estimations, a large batch size is needed to ensure stable policy improvement. In a real-time responsive system, it cannot afford to use large batchsize.
+Policy gradient method is considered to be more stable than value-based RL method but a major drawback is its sample inefficiency. Due to the high variance in the gradient estimations, a large batch size is needed to ensure stable policy improvement. In a real-time responsive system, it cannot afford to use large batchsize. In fact, instead of batch update, incremental update with batch size of one is often employed in interactive systems to ensure good user experience. This work investigates how to make policy gradient achieve stable convergence with small batch size.
 
 ## Bootstrapped Policy Gradient (BPG)
-This work proposes to use bootstrap policy gradient to enhance its sample efficiency. 
+Consider a piece of prior information which states certain actions are likely to have higher/lower reward than others. We will first discuss how to incorporate such prior information into policy gradient with unbiased convergence guarantee and then discuss how such information can be obtained in practice.
+
+The key idea proposed here is to use bootstrap policy gradient with better/worse actions by updating the probability of \textit{a set of actions} instead of a single action in the gradient sample. Specifically, for each action, let ${\mathcal{X} }^+_{{{a}_{i}}}$ denote \textit{better action set}, which includes the actions that might be better than $a_{i}$ and ${\mathcal{X} }^-_{{{a}_{i}}}$ denote a \textit{worse action set}, which contains the worse actions than $a_i$. 
+The bootstrapped policy gradient is defined as:
+ 
 * Bootstrapped Policy Gradient with Better/Worse Actions 
 <img src="/images/bpg_pic/bpg.png" alt="hi" class="inline" width="600" />
 * Why BPG?
+<img src="/images/bpg_pic/why_bpg.png" alt="hi" class="inline" width="300" />
 
 ## Difficulty Adaptation with Bootstrapped Policy Gradient (BPG)
 The remaining questions is how to obtain the prior information of Better/Worse Actions.
