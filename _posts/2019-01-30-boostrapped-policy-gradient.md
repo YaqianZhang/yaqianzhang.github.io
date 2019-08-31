@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sample Efficient Bootstrapped Policy Gradient for Difficulty Adaptation"
+title: "Sample efficient bootstrapped policy gradient for difficulty adaptation"
 date: 2018-06-30
 label: "Reinforcement Learning"
 imgstr: "/images/bpg_pic/strong_weak.png"
