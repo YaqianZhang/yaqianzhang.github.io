@@ -38,25 +38,27 @@ In this way, the difficulty adaptation problem can be solved by reinforcement le
 <img src="/images/bpg_pic/pg.png" alt="hi" class="inline" width="300" />
 
 Policy gradient method is considered to be more stable than value-based RL method but a major drawback is its sample inefficiency. Due to the high variance in the gradient estimations, a large batch size is needed to ensure stable policy improvement. In a real-time responsive system, it cannot afford to use large batchsize. In fact, instead of batch update, incremental update with batch size of one is often employed in interactive systems to ensure good user experience. This work investigates how to make policy gradient achieve stable convergence with small batch size.
-
-## Bootstrapped Policy Gradient (BPG)
+# Bootstrapped Policy Gradient (BPG)
 Consider a piece of prior information which states certain actions are likely to have higher/lower reward than others. We will first discuss how to incorporate such prior information into policy gradient with unbiased convergence guarantee and then discuss how such information can be obtained in practice.
-
+## What is BPG?
 The key idea proposed here is to use bootstrap policy gradient with better/worse actions by updating the probability of \textit{a set of actions} instead of a single action in the gradient sample. Specifically, for each action, let ${\mathcal{X} }^+_{{{a}_{i}}}$ denote \textit{better action set}, which includes the actions that might be better than $a_{i}$ and ${\mathcal{X} }^-_{{{a}_{i}}}$ denote a \textit{worse action set}, which contains the worse actions than $a_i$. 
 The bootstrapped policy gradient is defined as:
  
 * Bootstrapped Policy Gradient with Better/Worse Actions 
 <img src="/images/bpg_pic/bpg.png" alt="hi" class="inline" width="600" />
-* Why BPG?
-<img src="/images/bpg_pic/why_bpg.png" alt="hi" class="inline" width="300" />
+## Why BPG?
+<img src="/images/bpg_pic/why_BPG.png" alt="hi" class="inline" width="300" />
 
-## Difficulty Adaptation with Bootstrapped Policy Gradient (BPG)
-The remaining questions is how to obtain the prior information of Better/Worse Actions.
-<img src="/images/bpg_pic/DDA.png" alt="hi" class="inline" width="600" />
-## Unbiased Convergence
+## How to ensure unbiased convergence?
 * Surrogate Policy Gradient Theorem
-<img src="/images/bpg_pic/convergence.PNG" alt="hi" class="inline" width="600" />
-* Unbiased Convergence
+<img src="/images/bpg_pic/convergence.png" alt="hi" class="inline" width="600" />
+<img src="/images/bpg_pic/surrogate.png" alt="hi" class="inline" width="300" />
+
+## How to obtain Better/Worse Action set in practice?
+The remaining questions is how to obtain the prior information of Better/Worse Actions. In the case of difficulty adaptation, there happens to be a convenient way to construct _approximate better/worse action sets_ from prior information of difficulty ranking. Specifically, if a question is observed to be too easy or too hard for the user, then those questions which are even easier or harder than the current one can be considered as worse actions;  and in contrast those questions which are harder or easier than the current one can be considered as better actions. 
+<img src="/images/bpg_pic/DDA.png" alt="hi" class="inline" width="600" />
+
+
 ## Experimental Results
 <img src="/images/fig4_1.PNG" alt="hi" class="inline" width="600" />
 
