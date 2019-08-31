@@ -50,20 +50,25 @@ The bootstrapped policy gradient is defined as:
 
 ## Why BPG?
 
-<img src="/images/bpg_pic/why_BPG.png" alt="hi" class="inline" width="300" />
-
 In the traditional policy gradient, at an individual policy gradient estimation sample, the softmax weight of the sampled action is updated in one direction and all the other actions' updated in the opposite direction. As a result, the agent is susceptible to being stuck at the sampled action. Specifically, if the sampled action has a better-than-average reward, only the sampled action's softmax weight will be increased and thus its probability is guaranteed to be enhanced. Hence, the step size needs to be kept very small when receiving positive score function values.
-
+<img src="/images/bpg_pic/why_BPG.png" alt="hi" class="inline" width="300" />
 
 Compared to traditional policy gradient, the proposed method enjoys several advantages. Firstly, in each gradient sample, the agent does not raise a single action's probability weights but that of a set of actions'. Thus it is more stable and less likely to be stuck with a certain action, regardless of the sign of the reward. As shown in the gradient to the softmax weights, the weight change direction no longer relies on whether the action is the sampled action and the sign of the reward. This property makes it possible for BPG to stably update policy even with the batch size equal to one. Secondly, in BPG the _worse_ action's probability can be decreased without actually exploring it and the _better_ action's probability can be increased before it has been selected. It is this property that makes it possible for BPG to find the best action without exhaustively trying every action. In the interactive application, this means that the agent can eliminate some undesirable choices without actually exposing them to the users and use the limited exploration steps to focus on the more promising ones.
 
 ## How to ensure unbiased convergence?
+In spite of the promising properties of the BPG, an immediate question is how to ensure that the surrogate gradient can still lead to the target optimal action, given that the gradient direction has been altered. Notably, the performance of BPG is dependent on the "quality" of the _better/worse action set_. Therefore,  we investigated what kind of constraints on _better/worse action set_  are required for unbiased convergence.
 
-Equivalent Expression of BPG
-<img src="/images/bpg_pic/eq.png" alt="hi" class="inline" width="300" />
-Surrogate Policy Gradient Theorem
+* Equivalent Expression of BPG
+It turns out that BPG can be expressed in a form similar to the original policy gradient by using a new score function estimator to replace the raw reward.
+
+<img src="/images/bpg_pic/eq.png" alt="hi" class="inline" width="400" />
+
+An interesting question is whether there is a certain special class of score function which can make the surrogate gradient direction still converge to the target actions. To answer this question, we provided a surrogate policy gradient theorem.
+
+* Surrogate Policy Gradient Theorem
 <img src="/images/bpg_pic/convergence.png" alt="hi" class="inline" width="600" />
 
+This theorem points out a class of score function which can guarantee the surrogate gradient to the target action. This class of score function needs to meet two conditions above. The score function need
 
 ## How to obtain Better/Worse Action set in practice?
 The remaining questions is how to obtain the prior information of Better/Worse Actions. In the case of difficulty adaptation, there happens to be a convenient way to construct _approximate better/worse action sets_ from prior information of difficulty ranking. Specifically, if a question is observed to be too easy or too hard for the user, then those questions which are even easier or harder than the current one can be considered as worse actions;  and in contrast those questions which are harder or easier than the current one can be considered as better actions. 
