@@ -35,7 +35,7 @@ where
 	
 
 
-## Detection of H
+## Detection of Hierarchical Cluster Structure
 
 
 <img src="/images/fig2_2.PNG"  class="inline" height="400"/>
