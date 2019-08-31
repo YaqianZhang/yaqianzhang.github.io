@@ -74,6 +74,7 @@ This theorem points out a class of score function which can guarantee the surrog
 The remaining questions is how to obtain the prior information of Better/Worse Actions. In the case of difficulty adaptation, there happens to be a convenient way to construct _approximate better/worse action sets_ from prior information of difficulty ranking. Specifically, if a question is observed to be too easy or too hard for the user, then those questions which are even easier or harder than the current one can be considered as worse actions;  and in contrast those questions which are harder or easier than the current one can be considered as better actions. 
 <img src="/images/bpg_pic/DDA.png" alt="hi" class="inline" width="400" />
 
+Although the information contained in above better/worse action sets is not accurate, the BPG with these sets can still guarantee unbiased convergence, because the corresponding score function indeed satisfies the sufficient condition. (The proof can be found in the published [paper](../papers/) of this work) 
 
 ## Experimental Results
 <img src="/images/bpg_pic/strong_weak.png" alt="hi" class="inline" width="600" />
