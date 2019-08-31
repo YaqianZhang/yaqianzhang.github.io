@@ -51,7 +51,9 @@ The bootstrapped policy gradient is defined as:
 ## Why BPG?
 
 <img src="/images/bpg_pic/why_BPG.png" alt="hi" class="inline" width="300" />
+
 In the traditional policy gradient, at an individual policy gradient estimation sample, the softmax weight of the sampled action is updated in one direction and all the other actions' updated in the opposite direction. As a result, the agent is susceptible to being stuck at the sampled action. Specifically, if the sampled action has a better-than-average reward, only the sampled action's softmax weight will be increased and thus its probability is guaranteed to be enhanced. Hence, the step size needs to be kept very small when receiving positive score function values.
+
 
 Compared to traditional policy gradient, the proposed method enjoys several advantages. Firstly, in each gradient sample, the agent does not raise a single action's probability weights but that of a set of actions'. Thus it is more stable and less likely to be stuck with a certain action, regardless of the sign of the reward. As shown in the gradient to the softmax weights, the weight change direction no longer relies on whether the action is the sampled action and the sign of the reward. This property makes it possible for BPG to stably update policy even with the batch size equal to one. Secondly, in BPG the _worse_ action's probability can be decreased without actually exploring it and the _better_ action's probability can be increased before it has been selected. It is this property that makes it possible for BPG to find the best action without exhaustively trying every action. In the interactive application, this means that the agent can eliminate some undesirable choices without actually exposing them to the users and use the limited exploration steps to focus on the more promising ones.
 
