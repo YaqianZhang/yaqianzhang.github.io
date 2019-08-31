@@ -11,7 +11,7 @@ Determining the number of clusters is one of the research questions attracting c
 
 ## Maxinum Curvature Point at the Evaluation Graph
 * Evaluation Graph
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;J(k)=\sum\limits_{j=1}^{k}{\sum\limits_{{{x}_{i}}\in {{\mathcal{C}}_{j}}}{||{{\mathbf{x}}_{i}}-{{{\mathbf{\bar{x}}}}_{j}}|{{|}^{2}}}}" title="TEST" />
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;J(k)=\sum\limits_{j=1}^{k}{\sum\limits_{{x_i}\in{C_j}}{||{{\mathbf{x}}_{i}}-{{{\mathbf{\bar{x}}}}_{j}}|{{|}^{2}}}" title="TEST" />
 <img src="/images/curvature_pic/fig1_1.png"  height="200" />
 <img src="/images/curvature_pic/fig1_2.png"  height="200" />
 <img src="/images/curvature_pic/fig1_3.png"  height="200" />
@@ -19,13 +19,16 @@ Determining the number of clusters is one of the research questions attracting c
 
 * Curvature of Evalutation Graph
 
-<img src="/images/curvature_pic/fig2_1.PNG"  height="200" />
+<img src="/images/curvature_pic/fig2-1.PNG"  height="200" />
 <img src="/images/curvature_pic/fig2_2.png"  height="200" />
 
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;\kappa=\frac{|y''|}{(1+{{y'}^{2}})^{3/2}}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
 
 ## Beyond Curvature
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;{{\kappa }_{a}}(k)=\frac{|{{a}^{2}}J''|}{{{(1+{{a}^{4}}J{{'}^{2}})}^{3/2}}}=\beta (k)\kappa (k)" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+
+	
 
 
 ## Detection of H
