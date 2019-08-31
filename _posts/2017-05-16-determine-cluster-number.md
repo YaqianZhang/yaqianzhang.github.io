@@ -30,6 +30,8 @@ Determining the number of clusters is one of the research questions attracting c
 
 where
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;\beta(k)={{a}^{2}}{{\left(\frac{1+{{a}^{4}}{{{{J}'}}^{2}}}{1+{{{{J}'}}^{2}}}\right)}^{\frac{3}{2}}}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;K=\underset{k}{\mathop{\arg\max}}\,\underset{\alpha}{\mathop{\max}}\,\kappa(\alpha,k)" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;K=\underset{k}{\mathop{\arg\max}}\,|\frac{{J}''(k)}{{J}'(k)}|" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
 	
 
 
@@ -37,6 +39,7 @@ where
 
 
 <img src="/images/fig2_2.PNG"  class="inline" height="400"/>
+
 
 
 
