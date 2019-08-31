@@ -7,9 +7,6 @@ imgstr: "/images/fig4_0.PNG"
 ---
 
 
-
-One challenge for an intelligent interactive tutoring agent is to
-
 One challenge for an intelligent interactive tutoring agent is to
 autonomously determine the difficulty levels of the questions presented
 to the users. This difficulty adaptation problem can be formulated
@@ -30,16 +27,18 @@ space and short horizon, and it achieves fast and unbiased convergence
 both in theory and in practice. We also generalize BPG
 to multi-dimensional continuous action domain in general actor-critic
 reinforcement learning algorithms with no prior knowledge required.
-<img src="/images/bpg_pic/system.png" alt="hi" class="inline" width="600" />
+
 ## Bootstrapped Policy Gradient (BPG)
-* Policy Gradient
-<img src="/images/bpg_pic/pg.png" alt="hi" class="inline" width="600" />
-* Better/Worse Action 
+The problem of difficulty adaptation can be formalized using Reinforcement Leanring by taking question difficulty as action and the suitability of a difficulty as reward:
+<img src="/images/bpg_pic/system.png" alt="hi" class="inline" width="400" />
+In this way, the difficulty adaptation problem can be solved by reinforcement learning method. One popular reinforcement learning method is policy gradient, which directly takes gradient on the RL objective function. And the gradient can be expressed in an expectation form.
+<img src="/images/bpg_pic/pg.png" alt="hi" class="inline" width="300" />
+* Bootstrapped Policy Gradient with Better/Worse Actions 
 <img src="/images/bpg_pic/bpg.png" alt="hi" class="inline" width="600" />
-[//]:#(<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />)
 
 ## Difficulty Adaptation with Bootstrapped Policy Gradient (BPG)
+The remaining questions is how to obtain the prior information of Better/Worse Actions
 <img src="/images/bpg_pic/DDA.png" alt="hi" class="inline" width="600" />
-
+## Experimental Results
 <img src="/images/fig4_1.PNG" alt="hi" class="inline" width="600" />
 
