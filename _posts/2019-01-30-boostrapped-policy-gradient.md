@@ -9,6 +9,8 @@ imgstr: "/images/fig4_0.PNG"
 
 
 One challenge for an intelligent interactive tutoring agent is to
+
+One challenge for an intelligent interactive tutoring agent is to
 autonomously determine the difficulty levels of the questions presented
 to the users. This difficulty adaptation problem can be formulated
 as a sequential decision making problem which can be
@@ -26,10 +28,13 @@ is provided and proved. We apply the BPG to solve the difficulty
 adaptation problem in a challenging environment with large action
 space and short horizon, and it achieves fast and unbiased convergence
 both in theory and in practice. We also generalize BPG
-to multi-dimensional continuous action domain in general actorcritic
-reinforcement learning algorithms with no prior knowledge
-required.
+to multi-dimensional continuous action domain in general actor-critic
+reinforcement learning algorithms with no prior knowledge required.
+
+## Bootstrapped Policy Gradient (BPG)
+### Better/Worse Action 
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+## Difficulty Adaptation with Bootstrapped Policy Gradient (BPG)
 
 <img src="/images/fig4_1.PNG" alt="hi" class="inline" width="600" />
-
 
