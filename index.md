@@ -12,7 +12,7 @@ There should be whitespace between paragraphs. We recommend including a README, 
 # Welcome to Yaqian's homepage!
 
 
-I'm a fourth-year Ph.D. candidate in [Nanyang Technological University (NTU)](https://www.ntu.edu.sg). Before coming to Singapore, I got my Bachelor degree from [Shanghai Jiao Tong University (SJTU)](http://en.sjtu.edu.cn/), in 2015. I'm currently working on developing efficient machine learning algorithms to facilitate human-computer interaction.
+I'm a fourth-year Ph.D. candidate in [Nanyang Technological University (NTU)](https://www.ntu.edu.sg). Before coming to Singapore, I got my Bachelor degree from [Shanghai Jiao Tong University (SJTU)](http://en.sjtu.edu.cn/), in 2015. I'm currently working on developing efficient machine learning algorithms to facilitate human-computer interaction. Here is my [CV](about/document.pdf).
 
 ## Research Interests
 *   Reinforcement Learning
