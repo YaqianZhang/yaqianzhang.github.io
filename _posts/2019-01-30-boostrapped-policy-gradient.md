@@ -28,17 +28,29 @@ both in theory and in practice. We also generalize BPG
 to multi-dimensional continuous action domain in general actor-critic
 reinforcement learning algorithms with no prior knowledge required.
 
-## Bootstrapped Policy Gradient (BPG)
+## Policy Gradient
 The problem of difficulty adaptation can be formalized using Reinforcement Leanring by taking question difficulty as action and the suitability of a difficulty as reward:
+
 <img src="/images/bpg_pic/system.png" alt="hi" class="inline" width="400" />
+
 In this way, the difficulty adaptation problem can be solved by reinforcement learning method. One popular reinforcement learning method is policy gradient, which directly takes gradient on the RL objective function. And the gradient can be expressed in an expectation form.
+
 <img src="/images/bpg_pic/pg.png" alt="hi" class="inline" width="300" />
+
+Policy gradient method is considered to be more stable than value-based RL method but a major drawback is its sample inefficiency. Due to the high variance in the gradient estimations, a large batch size is needed to ensure stable policy improvement. In a real-time responsive system, it cannot afford to use large batchsize.
+
+## Bootstrapped Policy Gradient (BPG)
+This work proposes to use bootstrap policy gradient to enhance its sample efficiency. 
 * Bootstrapped Policy Gradient with Better/Worse Actions 
 <img src="/images/bpg_pic/bpg.png" alt="hi" class="inline" width="600" />
+* Why BPG?
 
 ## Difficulty Adaptation with Bootstrapped Policy Gradient (BPG)
-The remaining questions is how to obtain the prior information of Better/Worse Actions
+The remaining questions is how to obtain the prior information of Better/Worse Actions.
 <img src="/images/bpg_pic/DDA.png" alt="hi" class="inline" width="600" />
+## Unbiased Convergence
+* Surrogate Policy Gradient Theorem
+* Unbiased Convergence
 ## Experimental Results
 <img src="/images/fig4_1.PNG" alt="hi" class="inline" width="600" />
 
