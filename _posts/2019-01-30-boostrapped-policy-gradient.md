@@ -30,11 +30,16 @@ space and short horizon, and it achieves fast and unbiased convergence
 both in theory and in practice. We also generalize BPG
 to multi-dimensional continuous action domain in general actor-critic
 reinforcement learning algorithms with no prior knowledge required.
-
+<img src="/images/bpg_pic/system.png" alt="hi" class="inline" width="600" />
 ## Bootstrapped Policy Gradient (BPG)
-### Better/Worse Action 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+* Policy Gradient
+<img src="/images/bpg_pic/pg.png" alt="hi" class="inline" width="600" />
+* Better/Worse Action 
+<img src="/images/bpg_pic/bpg.png" alt="hi" class="inline" width="600" />
+[//]:#(<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />)
+
 ## Difficulty Adaptation with Bootstrapped Policy Gradient (BPG)
+<img src="/images/bpg_pic/DDA.png" alt="hi" class="inline" width="600" />
 
 <img src="/images/fig4_1.PNG" alt="hi" class="inline" width="600" />
 
