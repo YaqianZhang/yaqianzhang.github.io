@@ -55,6 +55,7 @@ The remaining questions is how to obtain the prior information of Better/Worse A
 <img src="/images/bpg_pic/DDA.png" alt="hi" class="inline" width="600" />
 ## Unbiased Convergence
 * Surrogate Policy Gradient Theorem
+<img src="/images/bpg_pic/convergence.PNG" alt="hi" class="inline" width="600" />
 * Unbiased Convergence
 ## Experimental Results
 <img src="/images/fig4_1.PNG" alt="hi" class="inline" width="600" />
