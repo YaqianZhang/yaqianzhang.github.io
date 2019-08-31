@@ -26,8 +26,10 @@ Determining the number of clusters is one of the research questions attracting c
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;\kappa=\frac{|y''|}{(1+{{y'}^{2}})^{3/2}}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
 
 ## Beyond Curvature
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;{{\kappa }_{a}}(k)=\frac{|{{a}^{2}}J''|}{{{(1+{{a}^{4}}J{{'}^{2}})}^{3/2}}}=\beta (k)\kappa (k)" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;{{\kappa}_{a}}(k)=\frac{|{{a}^{2}}J''|}{{{(1+{{a}^{4}}J{{'}^{2}})}^{3/2}}}=\beta(k)\kappa(k)" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
 
+where
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;\beta(k)={{a}^{2}}{{\left(\frac{1+{{a}^{4}}{{{{J}'}}^{2}}}{1+{{{{J}'}}^{2}}}\right)}^{\frac{3}{2}}}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
 	
 
 
