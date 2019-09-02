@@ -12,7 +12,7 @@ Determining the number of clusters is one of the research questions attracting c
 	
 ## Maxinum Curvature Point at the Evaluation Graph
 * Evaluation Graph
-$J(k)=\sum\limits_{j=1}^{k}\sum\limits_{x_i \in C_k}$
+$J(k)=\sum\limits_{j=1}^{k}\sum\limits_{x_i \in C_k}||x_i-x_j||^2$
 
 
 
