@@ -19,7 +19,7 @@ Determining the number of clusters is one of the research questions attracting c
 <img src="/images/curvature_pic/fig1_4.png"  height="200" />
 
 * Curvature of Evalutation Graph
-$\kappa=\frac{|y''|}{(1+{{y'}^{2}})^{3/2}}$
+$\kappa$
 
 <img src="/images/curvature_pic/fig2-1.PNG"  height="200" />
 <img src="/images/curvature_pic/fig2_2.png"  height="200" />
