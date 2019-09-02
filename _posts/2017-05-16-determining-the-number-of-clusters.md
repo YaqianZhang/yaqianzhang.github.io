@@ -10,7 +10,8 @@ Determining the number of clusters is one of the research questions attracting c
 
 
 	
-
+test
+$\beta$
 
 ## Detection of Hierarchical Cluster Structure
 
