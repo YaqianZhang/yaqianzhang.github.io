@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2017-05-16
+date: 2017-05-6
 title: "Determining the number of clusters: a curvature-based method"
 label: "Machine Learning"
 imgstr: "/images/fig2_2.PNG"
