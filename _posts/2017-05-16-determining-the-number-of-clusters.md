@@ -30,10 +30,10 @@ $$\kappa=\frac{|y''|}{(1+{y'}^2)^{\frac{3}{2}}}$$
 ## Beyond Curvature
 
 $$\beta(k)={{a}^{2}}{{\left(\frac{1+{{a}^{4}}{{{{J}'}}^{2}}}{1+{{{{J}'}}^{2}}}\right)}^{\frac{3}{2}}}$$
-$$K=\underset{k}{\mathop{\arg\max}}\,\underset{\alpha}{\mathop{\max}}\,\kappa(\alpha,k)$$
-$$K=\underset{k}{\mathop{\arg\max}}\,|\frac{{J}''(k)}{{J}'(k)}|$$
-## Detection of Hierarchical Cluster Structure
 
+
+
+## Detection of Hierarchical Cluster Structure
 
 <img src="/images/fig2_2.PNG"  class="inline" height="400"/>
 
