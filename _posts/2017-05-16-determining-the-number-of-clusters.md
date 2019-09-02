@@ -30,7 +30,7 @@ $$\kappa=\frac{|y''|}{(1+{y'}^2)^{\frac{3}{2}}}$$
 
 ## Beyond Curvature
 
-
+$$\kappa_a(k)=\frac{|a^2J''|}{(1+a^4J^{'2})^{\frac{3}{2}}}=\beta(k)\kappa(k)$$
 
 
 
