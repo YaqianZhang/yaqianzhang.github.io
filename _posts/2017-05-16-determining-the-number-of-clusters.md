@@ -12,6 +12,7 @@ Determining the number of clusters is one of the research questions attracting c
 	
 ## Maxinum Curvature Point at the Evaluation Graph
 * Evaluation Graph
+$$J(k)=\sum\limits_{j=1}^{k}\sum\limits_{x_i\in C_j}||x_i-\overline{x}_j||$$
 
 <img src="/images/curvature_pic/fig1_1.png"  height="200" />
 <img src="/images/curvature_pic/fig1_2.png"  height="200" />
@@ -29,7 +30,7 @@ $$\kappa=\frac{|y''|}{(1+{y'}^2)^{\frac{3}{2}}}$$
 
 ## Beyond Curvature
 
-$$\beta(k)={{a}^{2}}{{\left(\frac{1+{{a}^{4}}{{{{J}'}}^{2}}}{1+{{{{J}'}}^{2}}}\right)}^{\frac{3}{2}}}$$
+$$\beta(k)={a}^{2}{{(\frac{1+{{a}^{4}}{{{{J}'}}^{2}}}{1+{{{{J}'}}^{2}}})}^{\frac{3}{2}}}$$
 
 
 
