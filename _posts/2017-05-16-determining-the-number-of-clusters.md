@@ -14,23 +14,6 @@ Determining the number of clusters is one of the research questions attracting c
 * Evaluation Graph
 $J(k)=\sum\limits_{j=1}^{k}{\sum\limits_{{x_i}\in{C_j}}{||{{\mathbf{x}}_{i}}-{{{\mathbf{\bar{x}}}}_{j}}|{{|}^{2}}}$
 
-<img src="/images/curvature_pic/fig1_1.png"  height="200" />
-<img src="/images/curvature_pic/fig1_2.png"  height="200" />
-<img src="/images/curvature_pic/fig1_3.png"  height="200" />
-<img src="/images/curvature_pic/fig1_4.png"  height="200" />
-
-* Curvature of Evalutation Graph
-
-<img src="/images/curvature_pic/fig2-1.PNG"  height="200" />
-<img src="/images/curvature_pic/fig2_2.png"  height="200" />
-
-[//]:#($\kappa=\frac{|y''|}{(1+{{y'}^{2}})^{3/2}}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$)
-
-## Beyond Curvature
-[//]:#(${{\kappa}_{a}}(k)=\frac{|{{a}^{2}}J''|}{{{(1+{{a}^{4}}J{{'}^{2}})}^{3/2}}}=\beta(k)\kappa(k)$
-where$\beta(k)={{a}^{2}}{{\left(\frac{1+{{a}^{4}}{{{{J}'}}^{2}}}{1+{{{{J}'}}^{2}}}\right)}^{\frac{3}{2}}}$
-$K=\underset{k}{\mathop{\arg\max}}\,\underset{\alpha}{\mathop{\max}}\,\kappa(\alpha,k)$
-$K=\underset{k}{\mathop{\arg\max}}\,|\frac{{J}''(k)}{{J}'(k)}|$)
 
 ## Detection of Hierarchical Cluster Structure
 
