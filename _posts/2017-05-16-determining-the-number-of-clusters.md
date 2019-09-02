@@ -12,7 +12,7 @@ Determining the number of clusters is one of the research questions attracting c
 	
 ## Maxinum Curvature Point at the Evaluation Graph
 * Evaluation Graph
-$J(k)=\sum\limits_{j=1}^{k}{||{{{x}}_{i}}-{{{{\bar{x}}}}_{j}}|{{|}^{2}}}}$
+$fuck$
 
 
 ## Detection of Hierarchical Cluster Structure
