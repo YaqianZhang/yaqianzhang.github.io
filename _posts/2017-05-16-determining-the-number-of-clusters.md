@@ -12,6 +12,7 @@ Determining the number of clusters is one of the research questions attracting c
 	
 ## Maxinum Curvature Point at the Evaluation Graph
 * Evaluation Graph
+
 In order to find the appropriate number of clusters, some approaches construct an evaluation graph by taking  the x-axis as the cluster number and  the y-axis as the corresponding evaluation function value. In these graphs, the within-cluster variance is often used as the evaluation metric.
 
 $$J(k)=\sum\limits_{j=1}^{k}\sum\limits_{x_i\in C_j}||x_i-\overline{x}_j||$$
@@ -22,6 +23,7 @@ One can then examine the characteristics of such an evaluation graph to determin
 <img src="/images/curvature_pic/fig1_2.png"  height="200" />
 <img src="/images/curvature_pic/fig1_3.png"  height="200" />
 <img src="/images/curvature_pic/fig1_4.png"  height="200" />
+	
 <em>Visual inspection of the _knee_ in the evaluation graph.</em>
 	</p>
 The evaluation graph is monotonically decreasing as the within-cluster variance will decline as the cluster number $k$ increases. However, the decrease in the within-cluster variance would become much smaller when $k$ surpasses the true cluster number, as after this point creating more clusters only lead to partitions within groups rather than between groups. Therefore, one can visually inspect the _knee_ of the evaluation curve which corresponds to the correct number of cluster.
