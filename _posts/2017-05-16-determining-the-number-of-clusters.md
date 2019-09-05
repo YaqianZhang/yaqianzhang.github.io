@@ -34,6 +34,8 @@ The evaluation graph is monotonically decreasing as the within-cluster variance 
 However, determining the _knee_ position of the evaluation curve is actually a non-trivial problem. The visual inspection method is ambiguous especially when there is a high degree of intermix between the clusters. In order to reduce the ambiguity stemming from the process of visual inspection an idea is to use the curvature information of the evaluation graph. In mathematics, curvature is the amount by which a geometric object deviates from being flat, or straight in the case of a line. So the \textit{knee} in the graph should correspond to the point with the maximum curvature. For a curve explicitly given as $y=f(x)$ , the curvature is defined as:
 $$\kappa=\frac{|y''|}{(1+{y'}^2)^{\frac{3}{2}}}$$
 
+As an example,  this curvature method is applied to a real-world dataset (Seed from UCI). The within-cluster variance and the corresponding curvature graph are presented in the figures below. The true cluster number (equal to 3) corresponds to the maximum curvature point. 
+
 <img src="/images/curvature_pic/fig2-1.PNG"  height="200" />
 <img src="/images/curvature_pic/fig2_2.png"  height="200" />
 
