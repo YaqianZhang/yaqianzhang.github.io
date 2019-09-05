@@ -11,7 +11,7 @@ Determining the number of clusters is one of the research questions attracting c
 
 	
 ## Maxinum Curvature Point at the Evaluation Graph
-* Evaluation Graph
+### Evaluation Graph
 
 In order to find the appropriate number of clusters, some approaches construct an evaluation graph by taking  the x-axis as the cluster number and  the y-axis as the corresponding evaluation function value. In these graphs, the within-cluster variance is often used as the evaluation metric.
 
@@ -29,7 +29,7 @@ One can then examine the characteristics of such an evaluation graph to determin
 The evaluation graph is monotonically decreasing as the within-cluster variance will decline as the cluster number $k$ increases. However, the decrease in the within-cluster variance would become much smaller when $k$ surpasses the true cluster number, as after this point creating more clusters only lead to partitions within groups rather than between groups. Therefore, one can visually inspect the _knee_ of the evaluation curve which corresponds to the correct number of cluster.
 
 
-* Curvature of Evalutation Graph
+### Curvature of Evalutation Graph
 
 However, determining the _knee_ position of the evaluation curve is actually a non-trivial problem. The visual inspection method is ambiguous especially when there is a high degree of intermix between the clusters. In order to reduce the ambiguity stemming from the process of visual inspection an idea is to use the curvature information of the evaluation graph. In mathematics, curvature is the amount by which a geometric object deviates from being flat, or straight in the case of a line. So the \textit{knee} in the graph should correspond to the point with the maximum curvature. For a curve explicitly given as $y=f(x)$ , the curvature is defined as:
 $$\kappa=\frac{|y''|}{(1+{y'}^2)^{\frac{3}{2}}}$$
@@ -39,15 +39,17 @@ As an example,  this curvature method is applied to a real-world dataset (Seed f
 <img src="/images/curvature_pic/fig2-1.PNG"  height="200" />
 <img src="/images/curvature_pic/fig2_2.png"  height="200" />
 
+### Rescale Problem
 
-
-## Beyond Curvature
+While computing the curvature, a critical problem was discovered. It was observed that the position of the maximum curvature point changes when the original data is rescaled. Curvature is a kind of geometric property of the graph and tightly related to the range of the two axes. In the evaluation graph, the x-axis is the number of clusters, the difference of which is always one and the y-axis is the within-group variance, the range of which lies in a large variety (often much bigger than the range of x). When the original data is rescaled, the x-axis remains the same and the y-axis has a linear change as indicated below.
 
 $$\kappa_a(k)=\frac{|a^2J''|}{(1+a^4J^{'2})^{\frac{3}{2}}}=\beta(k)\kappa(k)$$
 
-where 
+where $$\beta(k)=a^2{(\frac{1+a^4J^{'2}}{1+J^{'2}})}^{\frac{3}{2}}$$
 
-$$\beta(k)=a^2{(\frac{1+a^4J^{'2}}{1+J^{'2}})}^{\frac{3}{2}}$$
+For each $$k$$, the change of curvature $$\beta (k)$$  is not only related to $$a$$, but also to $$J^{'}$$. This non-linear change in the curvature will cause the shift of the maximum curvature point. As we know, while rescaling the data, the cluster structure in fact remains the same and so does the cluster number. Therefore, although the raw curvature can serve as an effective way to identify the _knee_ of the evaluation graph, it is indeed a poor indicator of cluster number.  It should be noted that the traditional _knee_ method suffers from the same scaling problem. When the within-cluster variance against $$k$$ is plotted, the software usually automatically scales the range of axes for representation purpose because the range of within-cluster variance is often much bigger than $$k$$. When the _knee_ of the graph is inspected visually, it is actually being examined under some scaling factor and thus the results may be unreliable.
+
+## Beyond Curvature
 
 $$K=\underset{k}{\mathop{\arg\max}}\,\underset{\alpha}{\mathop{\max}}\,\kappa(\alpha,k)$$
 
