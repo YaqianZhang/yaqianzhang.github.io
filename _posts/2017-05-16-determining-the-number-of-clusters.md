@@ -54,7 +54,7 @@ Our goal is to eliminate the influence of the scaling factor and at the same tim
 
 For convenience, let's define a scale parameter $$\alpha = a^2$$. The curvature of evaluation graph can be expressed as a function with respect to $$k$$ and $$\alpha$$:
 
-$$\kappa(\alpha,k)=\frac{|\alphaJ''(k)|}{(1+\alpha^2{J'(k)}^2)^{\frac{3}{2}}}$$
+$$\kappa(\alpha,k)=\frac{|\alpha J''(k)|}{(1+\alpha^2{J'(k)}^2)^{\frac{3}{2}}}$$
 
 Since the goal is to focus on the influence of $$k$$  and to eliminate the effect of $\alpha$, this work proposes to choose the optimal $k$  by solving the following optimization problem.
 
