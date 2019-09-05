@@ -69,7 +69,7 @@ The proposed curvature-based method was compared with 6 other well-known approac
 
 ### Detection of Hierarchical Cluster Structure
 | Datasets          |  Curvature-based method |  Jump method | 
------------------ | ------------------------ | -------------------------
+| ----------------- | ------------------------ | --------- |
 ![](/images/curvature_pic/6_subcluster.png "title-1") | ![](/images/curvature_pic/6_subcluster_Curve.png "title-2") | ![](/images/curvature_pic/6_subcluster_Jump.png "title-2")
 ![](/images/curvature_pic/7_subcluster.png "title-1") | ![](/images/curvature_pic/7_subcluster_Curve.png "title-2") | ![](/images/curvature_pic/7_subcluster_Jump.png "title-2")
 ![](/images/curvature_pic/8_subcluster.png "title-1") | ![](/images/curvature_pic/8_subcluster_Curve.png "title-2") | ![](/images/curvature_pic/8_subcluster_Jump.png "title-2")
