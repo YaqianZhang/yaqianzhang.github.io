@@ -16,21 +16,21 @@ Determining the number of clusters is one of the research questions attracting c
 In order to find the appropriate number of clusters, some approaches construct an evaluation graph by taking  the x-axis as the cluster number and  the y-axis as the corresponding evaluation function value. In these graphs, the within-cluster variance is often used as the evaluation metric.
 
 $$J(k)=\sum\limits_{j=1}^{k}\sum\limits_{x_i\in C_j}||x_i-\overline{x}_j||$$
+	where ${{\mathcal{C}}_{j}}$  is the set of samples belonging to class $j$ and  ${{\mathbf{\bar{x}}}_{j}}$ is the sample mean of class  $j$.
 
 One can then examine the characteristics of such an evaluation graph to determine the number of clusters. A basic idea is to identify the _knee_ or _elbow_ of the evaluation graph. 
-<p>
+
 <img src="/images/curvature_pic/fig1_1.png"  height="200" />
 <img src="/images/curvature_pic/fig1_2.png"  height="200" />
 <img src="/images/curvature_pic/fig1_3.png"  height="200" />
 <img src="/images/curvature_pic/fig1_4.png"  height="200" />
-	
-<em>Visual inspection of the _knee_ in the evaluation graph.</em>
-	</p>
+
 The evaluation graph is monotonically decreasing as the within-cluster variance will decline as the cluster number $k$ increases. However, the decrease in the within-cluster variance would become much smaller when $k$ surpasses the true cluster number, as after this point creating more clusters only lead to partitions within groups rather than between groups. Therefore, one can visually inspect the _knee_ of the evaluation curve which corresponds to the correct number of cluster.
 
 
 * Curvature of Evalutation Graph
 
+However, determining the _knee_ position of the evaluation curve is actually a non-trivial problem. The visual inspection method is ambiguous especially when there is a high degree of intermix between the clusters. In order to reduce the ambiguity stemming from the process of visual inspection an idea is to use the curvature information of the evaluation graph. In mathematics, curvature is the amount by which a geometric object deviates from being flat, or straight in the case of a line. So the \textit{knee} in the graph should correspond to the point with the maximum curvature. For a curve explicitly given as $y=f(x)$ , the curvature is defined as:
 $$\kappa=\frac{|y''|}{(1+{y'}^2)^{\frac{3}{2}}}$$
 
 <img src="/images/curvature_pic/fig2-1.PNG"  height="200" />
