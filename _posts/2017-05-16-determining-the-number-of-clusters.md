@@ -18,6 +18,8 @@ $$J(k)=\sum\limits_{j=1}^{k}\sum\limits_{x_i\in C_j}||x_i-\overline{x}_j||$$
 <img src="/images/curvature_pic/fig1_2.png"  height="200" />
 <img src="/images/curvature_pic/fig1_3.png"  height="200" />
 <img src="/images/curvature_pic/fig1_4.png"  height="200" />
+<em>Visual inspection of the _knee_ in the evaluation graph.</em>
+
 
 * Curvature of Evalutation Graph
 
