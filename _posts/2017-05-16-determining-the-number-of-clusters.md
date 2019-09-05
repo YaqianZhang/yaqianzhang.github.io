@@ -63,10 +63,14 @@ $$K=\underset{k}{\mathop{\arg\max}}\,\underset{\alpha}{\mathop{\max}}\,\kappa(\a
 After some derivations, we have:
 $$K=\underset{k}{\mathop{\arg\max}}\,|\frac{J''(k)}{J'(k)}|$$
 
+## Experiments
+The proposed curvature-based method was compared with 6 other well-known approaches of comparable computational complexity: the CH method, the KL method, the Hartigan method, the Silhouette method, the Gap method, the Jump method. The detail descriptions of these six approaches can be found in the original [paper](https://github.com/YaqianZhang/yaqianzhang.github.io/blob/master/papers/17_YaqianZhang_Curvature_Cluster_InformationScience.pdf).
+### Prediction Accuracy of Cluster Number
 
-## Detection of Hierarchical Cluster Structure
-
+### Detection of Hierarchical Cluster Structure
 <img src="/images/fig2_2.PNG"  class="inline" height="400"/>
+
+### Compounded Clusterhttps://github.com/YaqianZhang/yaqianzhang.github.io/blob/master/papers/17_YaqianZhang_Curvature_Cluster_InformationScience.pdf
 
 
 
