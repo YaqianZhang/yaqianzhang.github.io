@@ -68,17 +68,11 @@ The proposed curvature-based method was compared with 6 other well-known approac
 ### Prediction Accuracy of Cluster Number
 
 ### Detection of Hierarchical Cluster Structure
+Datasets          |  Curvature-based method|  Jump method 
+:-------------------------:|:-------------------------:|:-------------------------:
+![](/images/curvature_pic/6_subcluster.png "title-1")|![](/images/curvature_pic/6_subcluster_Curve.png "title-2") |![](/images/curvature_pic/6_subcluster_Jump.png "title-2")
 
 
-<figure>
-<img src="/images/curvature_pic/6_subcluster.png"  height="120" />
-	<figcaption>6 Gaussian clusters spaced in 3 groups</figcaption>
-<img src="/images/curvature_pic/6_subcluster_Curve.png"  height="120" />
-	<figcaption>Curvature-based method</figcaption>
-<img src="/images/curvature_pic/6_subcluster_Jump.png"  height="120" />
-	<figcaption>Jump method</figcaption>
-  <figcaption>Hierarchical cluster structure detection for 6 Gaussian clusters spaced in 3 groups</figcaption>
-</figure>
 
 <img src="/images/curvature_pic/7_subcluster.png"  height="120" />
 <img src="/images/curvature_pic/7_subcluster_Curve.png"  height="120" />
