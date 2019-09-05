@@ -68,9 +68,35 @@ The proposed curvature-based method was compared with 6 other well-known approac
 ### Prediction Accuracy of Cluster Number
 
 ### Detection of Hierarchical Cluster Structure
+
 <img src="/images/fig2_2.PNG"  class="inline" height="400"/>
 
-### Compounded Clusterhttps://github.com/YaqianZhang/yaqianzhang.github.io/blob/master/papers/17_YaqianZhang_Curvature_Cluster_InformationScience.pdf
+<img src="/images/curvature_pic/6_subcluster.png"  height="120" />
+<img src="/images/curvature_pic/6_subcluster_Curve.png"  height="120" />
+<img src="/images/curvature_pic/6_subcluster_Jump.png"  height="120" />
+
+<img src="/images/curvature_pic/7_subcluster.png"  height="120" />
+<img src="/images/curvature_pic/7_subcluster_Curve.png"  height="120" />
+<img src="/images/curvature_pic/7_subcluster_Jump.png"  height="120" />
+
+<img src="/images/curvature_pic/8_subcluster.png"  height="120" />
+<img src="/images/curvature_pic/8_subcluster_Curve.png"  height="120" />
+<img src="/images/curvature_pic/8_subcluster_Jump.png"  height="120" />
+
+
+### Compounded Cluster
+
+<img src="/images/curvature_pic/intermix1.png"  height="100" />
+<img src="/images/curvature_pic/intermix2.png"  height="100" />
+<img src="/images/curvature_pic/intermix3.png"  height="100" />
+<img src="/images/curvature_pic/intermix4.png"  height="100" />
+
+<img src="/images/curvature_pic/figure8_1.png"  height="100" />
+<img src="/images/curvature_pic/figure8_2.png"  height="100" />
+
+<img src="/images/curvature_pic/8_CH.png"  height="120" />
+<img src="/images/curvature_pic/8_KL.png"  height="120" />
+<img src="/images/curvature_pic/8_Hartigan.png"  height="120" />
 
 
 
