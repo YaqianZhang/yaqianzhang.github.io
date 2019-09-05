@@ -50,6 +50,8 @@ where $$\beta(k)=a^2{(\frac{1+a^4J^{'2}}{1+J^{'2}})}^{\frac{3}{2}}$$
 For each $$k$$, the change of curvature $$\beta (k)$$  is not only related to $$a$$, but also to $$J^{'}$$. This non-linear change in the curvature will cause the shift of the maximum curvature point. As we know, while rescaling the data, the cluster structure in fact remains the same and so does the cluster number. Therefore, although the raw curvature can serve as an effective way to identify the _knee_ of the evaluation graph, it is indeed a poor indicator of cluster number.  It should be noted that the traditional _knee_ method suffers from the same scaling problem. When the within-cluster variance against $$k$$ is plotted, the software usually automatically scales the range of axes for representation purpose because the range of within-cluster variance is often much bigger than $$k$$. When the _knee_ of the graph is inspected visually, it is actually being examined under some scaling factor and thus the results may be unreliable.
 
 ## Beyond Curvature
+Our goal is to eliminate the influence of the scaling factor and at the same time still exploit the usefulness of curvature in the detection of the _knee_ on a graph. To this end a new curvature-based index is proposed which does not depend on the scaling factor.	
+$$\kappa(\alpha,k)=\frac{|\alphaJ''(k)|}{(1+\alpha^2{J'(k)}^2)^{\frac{3}{2}}}
 
 $$K=\underset{k}{\mathop{\arg\max}}\,\underset{\alpha}{\mathop{\max}}\,\kappa(\alpha,k)$$
 
