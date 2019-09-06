@@ -19,12 +19,14 @@ $$J(k)=\sum\limits_{j=1}^{k}\sum\limits_{x_i\in C_j}||x_i-\overline{x}_j||$$
 
 where $$C_j$$ is the set of samples belonging to class $$j$$ and  $$\overline{x}_j$$ is the sample mean of class $$j$$.
 
-One can then examine the characteristics of such an evaluation graph to determine the number of clusters. A basic idea is to identify the _knee_ or _elbow_ of the evaluation graph. 
-
+One can then examine the characteristics of such an evaluation graph to determine the number of clusters. A basic idea is to identify the _knee_ or _elbow_ of the evaluation graph.
+<figure>
 <img src="/images/curvature_pic/fig1_1.png"  height="200" />
 <img src="/images/curvature_pic/fig1_2.png"  height="200" />
 <img src="/images/curvature_pic/fig1_3.png"  height="200" />
 <img src="/images/curvature_pic/fig1_4.png"  height="200" />
+<figcaption style=" text-align: center">Figure. Visual inspection of the _knee_ in the evaluation graph.</figcaption>
+</figure>
 
 The evaluation graph is monotonically decreasing as the within-cluster variance will decline as the cluster number $k$ increases. However, the decrease in the within-cluster variance would become much smaller when $k$ surpasses the true cluster number, as after this point creating more clusters only lead to partitions within groups rather than between groups. Therefore, one can visually inspect the _knee_ of the evaluation curve which corresponds to the correct number of cluster.
 
@@ -35,9 +37,11 @@ However, determining the _knee_ position of the evaluation curve is actually a n
 $$\kappa=\frac{|y''|}{(1+{y'}^2)^{\frac{3}{2}}}$$
 
 As an example,  this curvature method is applied to a real-world dataset (Seed from UCI). The within-cluster variance and the corresponding curvature graph are presented in the figures below. The true cluster number (equal to 3) corresponds to the maximum curvature point. 
-
+<figure>
 <img src="/images/curvature_pic/fig2-1.PNG"  height="200" />
 <img src="/images/curvature_pic/fig2_2.png"  height="200" />
+<figcaption style=" text-align: center">Figure. Dataset _Seed_ with real class number equal to 3: (a) Scaled cost function of $k$-Means; (b) Curvature of the scaled cost function.</figcaption>
+	</figure>
 
 ### Rescale Problem
 
