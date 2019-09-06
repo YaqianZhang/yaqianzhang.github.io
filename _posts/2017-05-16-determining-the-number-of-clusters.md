@@ -66,6 +66,11 @@ $$K=\underset{k}{\mathop{\arg\max}}\,|\frac{J''(k)}{J'(k)}|$$
 ## Experiments
 The proposed curvature-based method was compared with 6 other well-known approaches of comparable computational complexity: the CH method, the KL method, the Hartigan method, the Silhouette method, the Gap method, the Jump method. The detail descriptions of these six approaches can be found in the original [paper](https://github.com/YaqianZhang/yaqianzhang.github.io/blob/master/papers/17_YaqianZhang_Curvature_Cluster_InformationScience.pdf).
 ### Prediction Accuracy of Cluster Number
+| Priority apples | Second priority | Third priority |
+|-------|--------|---------|
+| ambrosia | gala | red delicious |
+| pink lady | jazz | macintosh |
+| honeycrisp | granny smith | fuji |
 
 ### Detection of Hierarchical Cluster Structure
 | Datasets          |  Curvature-based method |  Jump method | 
