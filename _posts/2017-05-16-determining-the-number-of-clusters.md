@@ -20,7 +20,7 @@ $$J(k)=\sum\limits_{j=1}^{k}\sum\limits_{x_i\in C_j}||x_i-\overline{x}_j||$$
 where $$C_j$$ is the set of samples belonging to class $$j$$ and  $$\overline{x}_j$$ is the sample mean of class $$j$$.
 
 One can then examine the characteristics of such an evaluation graph to determine the number of clusters. A basic idea is to identify the _knee_ or _elbow_ of the evaluation graph.
-<figure>
+<figure style="text-align:center">
 <img src="/images/curvature_pic/fig1_1.png"  height="200" />
 <img src="/images/curvature_pic/fig1_2.png"  height="200" />
 <img src="/images/curvature_pic/fig1_3.png"  height="200" />
