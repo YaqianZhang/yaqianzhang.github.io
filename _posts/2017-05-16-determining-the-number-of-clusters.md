@@ -90,6 +90,7 @@ Dataset
 
 Result
 
+Algo | Result
 | ----------------- | ------------------------ |
 Curvature | <img src="/images/curvature_pic/figure8_1.png"  height="100" />
 CH | <img src="/images/curvature_pic/8_CH.png"  height="120" />
