@@ -72,9 +72,9 @@ The proposed curvature-based method was compared with 6 other well-known approac
 
 | Datasets          |  Curvature-based method |  Jump method | 
 | ----------------- | ------------------------ | --------- |
-<img src="/images/curvature_pic/6_subcluster.png"  height="120" /> | <img src="/images/curvature_pic/6_subcluster_Curve.png"  height="120" /> | <img src="/images/curvature_pic/6_subcluster_Jump.png"  height="120" />
-<img src="/images/curvature_pic/7_subcluster.png"  height="120" /> | <img src="/images/curvature_pic/7_subcluster_Curve.png"  height="120" /> | <img src="/images/curvature_pic/7_subcluster_Jump.png"  height="120" />
-<img src="/images/curvature_pic/8_subcluster.png"  height="120" /> | <img src="/images/curvature_pic/8_subcluster_Curve.png"  height="120" /> | <img src="/images/curvature_pic/8_subcluster_Jump.png"  height="120" />
+<img src="/images/curvature_pic/6_subcluster.png"  height="120" /> | <img src="/images/curvature_pic/6_subcluster_Curve.png"  height="120" /> | <img src="/images/curvature_pic/6_subcluster_Jump.png"  width="200" />
+<img src="/images/curvature_pic/7_subcluster.png"  height="120" /> | <img src="/images/curvature_pic/7_subcluster_Curve.png"  height="120" /> | <img src="/images/curvature_pic/7_subcluster_Jump.png"  width="200" />
+<img src="/images/curvature_pic/8_subcluster.png"  height="120" /> | <img src="/images/curvature_pic/8_subcluster_Curve.png"  height="120" /> | <img src="/images/curvature_pic/8_subcluster_Jump.png"  width="200" />
 
 
 
