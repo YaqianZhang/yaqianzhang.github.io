@@ -92,10 +92,10 @@ Result
 
 | ----------------- | ------------------------ |
 Curvature | <img src="/images/curvature_pic/figure8_1.png"  height="100" />
-CH| <img src="/images/curvature_pic/8_CH.png"  height="120" />
-KL| <img src="/images/curvature_pic/8_KL.png"  height="120" />
-Hartigan|<img src="/images/curvature_pic/8_Hartigan.png"  height="120" />
-Silhouette| <img src="/images/curvature_pic/8_Silhouette.png"  height="120" />
+CH | <img src="/images/curvature_pic/8_CH.png"  height="120" />
+KL | <img src="/images/curvature_pic/8_KL.png"  height="120" />
+Hartigan | <img src="/images/curvature_pic/8_Hartigan.png"  height="120" />
+Silhouette | <img src="/images/curvature_pic/8_Silhouette.png"  height="120" />
 Gap | <img src="/images/curvature_pic/8_Gap.png"  height="120" />
 Jump | <img src="/images/curvature_pic/8_Jump.png"  height="120" />
 
