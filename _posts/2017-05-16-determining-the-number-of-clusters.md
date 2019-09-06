@@ -80,15 +80,18 @@ The proposed curvature-based method was compared with 6 other well-known approac
 
 
 ### Compounded Cluster
-Dataset
-<figure>
+#### Dataset
+The last simulation is designed to investigate how the Curvature index value changes when the extent of intermix between the clusters varies. To this end, four Gaussian clusters in two dimensions which are spaced in a square with the side length of 5 are generated. Each cluster has {a standard \color{black}deviation} of 1 in each dimension. Then the intermix between clusters is introduced by moving one cluster closer to another. More specifically, the distance between two clusters is varied from 5 to 0. Figure  presents the datasets with distances equal to 5, 3, 2 and 0. It is clear from the figure that the initial dataset contains 4 clusters and the last one contains 3 clusters. The second and the third ones record the transition from 4 to 3 clusters. 
 <img src="/images/curvature_pic/intermix1.png"  height="100" />
 <img src="/images/curvature_pic/intermix2.png"  height="100" />
 <img src="/images/curvature_pic/intermix3.png"  height="100" />
 <img src="/images/curvature_pic/intermix4.png"  height="100" />
 <figcaption style=" text-align: center">Figure. Simulated compounded datasets 1-4 with distances between two clusters at 5, 3, 2, 0 respectively</figcaption>
 </figure>
-Result
+
+#### Result
+
+The Curvature index graphs are shown in Figure. The Curvature method estimates the first two datasets as consisting of 4 clusters and the other two as consisting of 3 clusters.
 
 <figure>
 <img src="/images/curvature_pic/figure8_1.png"  height="200" />
@@ -96,10 +99,14 @@ Result
 <figcaption style=" text-align: center">Figure. Performance of the Curvature method on the four datasets</figcaption>
 </figure>
 
+Since the definition of a cluster is not precise, we choose not to judge whether the results are correct or not. Instead we seek to analyze the reasonableness of the Curvature index. Firstly, it can be observed that for all the four datasets the maximum point appears either at $$k=3$$ or $$k=4$$ and the values for other $k$ are very low, which indicates the low noise level of the proposed Curvature index. Secondly, as the distance between the two clusters increases, the Curvature index at $k=4$ decreases and Curvature index at $$k=3$$ increases. This phenomenon corresponds very well to the fact that the data is actually transformed from 4 to 3 clusters. Another interesting observation is that the maximum peaks in the index graph of dataset #1 and #4 are more distinctive than the peaks in dataset #2 and #3. This conforms to the fact that dataset #1 and #4 have clearer cluster structure than the other two datasets.
+
 <figure>
 <img src="/images/compounded_res.png"  height="400" />
 <figcaption style=" text-align: center">Figure. Performance of 6 comparative approaches on the four datasets</figcaption>
 </figure>
+
+The performance of the 6 existing approaches on the four datasets are shown in Figure. It can be seen that the maximum points generally appear either at $$k=3$$ or $$k=4$$ in the evaluation graphs of CH, KL, Hartigan, Gap and Jump methods. However, in the case of CH, Hartigan and Gap plots, these peaks are not obvious. Similar to the Curvature method, KL and Jump plots also have distinctive peaks at $$k=3$$ and $$k=4$$, but these two methods have much higher noise level than the Curvature method, because the index values are not properly penalized in these approaches for $$k > 4$$. Based on the above results and analysis, we conclude that the Curvature index behaves reasonably and proportionally to increasing intermixing among the clusters.
 
 
 
