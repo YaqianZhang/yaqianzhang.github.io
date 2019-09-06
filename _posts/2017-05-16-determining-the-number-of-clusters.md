@@ -98,7 +98,7 @@ Result
 
 <figure>
 <img src="/images/compounded_res.png"  height="400" />
-<figcaption>Performance of 6 comparative approaches on the four datasets</figcaption>
+<figcaption style=" text-align: center">Performance of 6 comparative approaches on the four datasets</figcaption>
 </figure>
 
 
