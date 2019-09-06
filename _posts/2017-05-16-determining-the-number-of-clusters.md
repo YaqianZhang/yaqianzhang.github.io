@@ -67,19 +67,6 @@ $$K=\underset{k}{\mathop{\arg\max}}\,|\frac{J''(k)}{J'(k)}|$$
 The proposed curvature-based method was compared with 6 other well-known approaches of comparable computational complexity: the CH method, the KL method, the Hartigan method, the Silhouette method, the Gap method, the Jump method. The detail descriptions of these six approaches can be found in the original [paper](https://github.com/YaqianZhang/yaqianzhang.github.io/blob/master/papers/17_YaqianZhang_Curvature_Cluster_InformationScience.pdf).
 ### Prediction Accuracy of Cluster Number
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-
-| Priority apples | Second priority | Third priority |
-|-------|--------|---------|
-| ambrosia | gala | red delicious |
-| pink lady | jazz | macintosh |
-| honeycrisp | granny smith | fuji |
 
 ### Detection of Hierarchical Cluster Structure
 
@@ -93,18 +80,24 @@ The proposed curvature-based method was compared with 6 other well-known approac
 
 
 ### Compounded Cluster
+Dataset
 
 <img src="/images/curvature_pic/intermix1.png"  height="100" />
 <img src="/images/curvature_pic/intermix2.png"  height="100" />
 <img src="/images/curvature_pic/intermix3.png"  height="100" />
 <img src="/images/curvature_pic/intermix4.png"  height="100" />
 
-<img src="/images/curvature_pic/figure8_1.png"  height="100" />
-<img src="/images/curvature_pic/figure8_2.png"  height="100" />
 
-<img src="/images/curvature_pic/8_CH.png"  height="120" />
-<img src="/images/curvature_pic/8_KL.png"  height="120" />
-<img src="/images/curvature_pic/8_Hartigan.png"  height="120" />
+Result
+
+| ----------------- | ------------------------ |
+Curvature | <img src="/images/curvature_pic/figure8_1.png"  height="100" />
+CH| <img src="/images/curvature_pic/8_CH.png"  height="120" />
+KL| <img src="/images/curvature_pic/8_KL.png"  height="120" />
+Hartigan|<img src="/images/curvature_pic/8_Hartigan.png"  height="120" />
+Silhouette| <img src="/images/curvature_pic/8_Silhouette.png"  height="120" />
+Gap | <img src="/images/curvature_pic/8_Gap.png"  height="120" />
+Jump | <img src="/images/curvature_pic/8_Jump.png"  height="120" />
 
 
 
