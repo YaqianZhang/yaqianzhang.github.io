@@ -81,24 +81,24 @@ The proposed curvature-based method was compared with 6 other well-known approac
 
 ### Compounded Cluster
 Dataset
-
+<figure>
 <img src="/images/curvature_pic/intermix1.png"  height="100" />
 <img src="/images/curvature_pic/intermix2.png"  height="100" />
 <img src="/images/curvature_pic/intermix3.png"  height="100" />
 <img src="/images/curvature_pic/intermix4.png"  height="100" />
-
-
+<figcaption style=" text-align: center">Figure. Simulated compounded datasets 1-4 with distances between two clusters at 5, 3, 2, 0 respectively</figcaption>
+</figure>
 Result
 
 <figure>
 <img src="/images/curvature_pic/figure8_1.png"  height="200" />
 <img src="/images/curvature_pic/figure8_2.png"  height="200" />
-<figcaption>Performance of the Curvature method on the four datasets</figcaption>
+<figcaption style=" text-align: center">Figure. Performance of the Curvature method on the four datasets</figcaption>
 </figure>
 
 <figure>
 <img src="/images/compounded_res.png"  height="400" />
-<figcaption style=" text-align: center;border: 1px dotted blue;">Performance of 6 comparative approaches on the four datasets</figcaption>
+<figcaption style=" text-align: center">Figure. Performance of 6 comparative approaches on the four datasets</figcaption>
 </figure>
 
 
