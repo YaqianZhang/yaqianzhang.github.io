@@ -25,7 +25,7 @@ One can then examine the characteristics of such an evaluation graph to determin
 <img src="/images/curvature_pic/fig1_2.png"  height="200" />
 <img src="/images/curvature_pic/fig1_3.png"  height="200" />
 <img src="/images/curvature_pic/fig1_4.png"  height="200" />
-<figcaption style=" text-align: center">Figure. Visual inspection of the _knee_ in the evaluation graph.</figcaption>
+<figcaption style=" text-align: center">Figure. Visual inspection of the knee in the evaluation graph.</figcaption>
 </figure>
 
 The evaluation graph is monotonically decreasing as the within-cluster variance will decline as the cluster number $k$ increases. However, the decrease in the within-cluster variance would become much smaller when $k$ surpasses the true cluster number, as after this point creating more clusters only lead to partitions within groups rather than between groups. Therefore, one can visually inspect the _knee_ of the evaluation curve which corresponds to the correct number of cluster.
@@ -40,7 +40,7 @@ As an example,  this curvature method is applied to a real-world dataset (Seed f
 <figure>
 <img src="/images/curvature_pic/fig2-1.PNG"  height="200" />
 <img src="/images/curvature_pic/fig2_2.png"  height="200" />
-<figcaption style=" text-align: center">Figure. Dataset _Seed_ with real class number equal to 3: (a) Scaled cost function of $k$-Means; (b) Curvature of the scaled cost function.</figcaption>
+<figcaption style=" text-align: center">Figure. Dataset Seed with real class number equal to 3: (a) Scaled cost function of $k$-Means; (b) Curvature of the scaled cost function.</figcaption>
 	</figure>
 
 ### Rescale Problem
