@@ -89,10 +89,17 @@ Dataset
 
 
 Result
+
+<figure>
 <img src="/images/curvature_pic/figure8_1.png"  height="200" />
 <img src="/images/curvature_pic/figure8_2.png"  height="200" />
+<figcaption>Performance of the Curvature method on the four datasets</figcaption>
+</figure>
 
+<figure>
 <img src="/images/compounded_res.png"  height="400" />
+<figcaption>Performance of 6 comparative approaches on the four datasets</figcaption>
+</figure>
 
 
 
