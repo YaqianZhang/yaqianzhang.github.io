@@ -92,13 +92,13 @@ Result
 
 Algo | Result
 | ----------------- | ------------------------ |
-Curvature | <img src="/images/curvature_pic/figure8_1.png"  height="100" />
-CH | <img src="/images/curvature_pic/8_CH.png"  height="120" />
-KL | <img src="/images/curvature_pic/8_KL.png"  height="120" />
-Hartigan | <img src="/images/curvature_pic/8_Hartigan.png"  height="120" />
-Silhouette | <img src="/images/curvature_pic/8_Silhouette.png"  height="120" />
-Gap | <img src="/images/curvature_pic/8_Gap.png"  height="120" />
-Jump | <img src="/images/curvature_pic/8_Jump.png"  height="120" />
+Curvature | <img src="/images/curvature_pic/figure8_1.png"  height="300" />
+CH | <img src="/images/curvature_pic/8_CH.png"  height="320" />
+KL | <img src="/images/curvature_pic/8_KL.png"  height="320" />
+Hartigan | <img src="/images/curvature_pic/8_Hartigan.png"  height="320" />
+Silhouette | <img src="/images/curvature_pic/8_Silhouette.png"  height="320" />
+Gap | <img src="/images/curvature_pic/8_Gap.png"  height="320" />
+Jump | <img src="/images/curvature_pic/8_Jump.png"  height="320" />
 
 
 
