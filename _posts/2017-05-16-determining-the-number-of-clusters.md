@@ -89,16 +89,11 @@ Dataset
 
 
 Result
+<img src="/images/curvature_pic/figure8_1.png"  height="200" />
+<img src="/images/curvature_pic/figure8_2.png"  height="200" />
 
-Algo | Result
-| ----------------- | ------------------------ |
-Curvature | <img src="/images/curvature_pic/figure8_1.png"  height="300" />
-CH | <img src="/images/curvature_pic/8_CH.png"  height="320" />
-KL | <img src="/images/curvature_pic/8_KL.png"  height="320" />
-Hartigan | <img src="/images/curvature_pic/8_Hartigan.png"  height="320" />
-Silhouette | <img src="/images/curvature_pic/8_Silhouette.png"  height="320" />
-Gap | <img src="/images/curvature_pic/8_Gap.png"  height="320" />
-Jump | <img src="/images/curvature_pic/8_Jump.png"  height="320" />
+<img src="/images/compounded_res.png"  height="400" />
+
 
 
 
