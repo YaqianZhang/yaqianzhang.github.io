@@ -81,7 +81,8 @@ The proposed curvature-based method was compared with 6 other well-known approac
 
 ### Compounded Cluster
 #### Dataset
-The last simulation is designed to investigate how the Curvature index value changes when the extent of intermix between the clusters varies. To this end, four Gaussian clusters in two dimensions which are spaced in a square with the side length of 5 are generated. Each cluster has {a standard \color{black}deviation} of 1 in each dimension. Then the intermix between clusters is introduced by moving one cluster closer to another. More specifically, the distance between two clusters is varied from 5 to 0. Figure  presents the datasets with distances equal to 5, 3, 2 and 0. It is clear from the figure that the initial dataset contains 4 clusters and the last one contains 3 clusters. The second and the third ones record the transition from 4 to 3 clusters. 
+This simulation is designed to investigate how the Curvature index value changes when the extent of intermix between the clusters varies. To this end, four Gaussian clusters in two dimensions which are spaced in a square with the side length of 5 are generated. Each cluster has {a standard \color{black}deviation} of 1 in each dimension. Then the intermix between clusters is introduced by moving one cluster closer to another. More specifically, the distance between two clusters is varied from 5 to 0. Figure  presents the datasets with distances equal to 5, 3, 2 and 0. It is clear from the figure that the initial dataset contains 4 clusters and the last one contains 3 clusters. The second and the third ones record the transition from 4 to 3 clusters. 
+<figure>
 <img src="/images/curvature_pic/intermix1.png"  height="100" />
 <img src="/images/curvature_pic/intermix2.png"  height="100" />
 <img src="/images/curvature_pic/intermix3.png"  height="100" />
