@@ -77,5 +77,6 @@ The remaining questions is how to obtain the prior information of Better/Worse A
 Although the information contained in above better/worse action sets is not accurate, the BPG with these sets can still guarantee unbiased convergence, because the corresponding score function indeed satisfies the sufficient condition. (The proof can be found in the published [paper](http://www.ifaamas.org/Proceedings/aamas2019/pdfs/p711.pdf) of this work) 
 
 ## Experimental Results
+The proposed difficulty adaptation method is evaluated on simulated data and compared with existing methods. The results showed that only the proposed method achieved unbiased convergence and presented the users with suitable difficulty levels.
 <img src="/images/bpg_pic/strong_weak.png" alt="hi" class="inline" width="600" />
 
