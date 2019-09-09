@@ -15,7 +15,7 @@ solved by Reinforcement learning (RL) methods. However, the cost
 of taking an action is an important consideration when applying
 RL in real-time responsive application involving human in the loop.
 Sample efficient algorithms are therefore critical for such applications,
-especially when the action space is large. This paper proposes
+especially when the action space is large. This work [(paper)](http://www.ifaamas.org/Proceedings/aamas2019/pdfs/p711.pdf) proposes
 a bootstrapped policy gradient (BPG) framework, which can incorporate
 prior knowledge into policy gradient to enhance sample
 efficiency. The core idea is to update the summed probability of
