@@ -21,10 +21,10 @@ Based on the Stroop effect, a tablet computer-based game was designed focusing o
 In competitive gameplay, the goal of each player is to surpass the score achieved by the other. As seen in Fig. 1(a), the current number of correct answers is shown on the top of the screen and the elapsed gameplay time in shown on the bottom left. The two players play independently. After 90s is over, the one who completed the most questions correctly will be announced as the winner with a “Win!” flashed on her tablet, while the other player receives a “Lose”. Both receive a “Win!” in the event of a tie.
 
 In cooperative play, the goal of the game is to beat the score the previous participating team achieved during their corresponding round. The team will be informed whether they have won or lost at the end of each round. Team members cooperate in the following manner. Both will receive the same question simultaneously. As seen in Fig. 1(b), there are two locks on display. Each player controls one lock. More specifically, if one finishes the question correctly, he will see the left lock open with the sound of a delightful chime and if his partner also finishes the question correctly, he will see the right lock open as well. However, if one team member answers the question incorrectly, a red cross will appear on the corresponding lock, as seen in Fig. 1(b), along with the sound of an error buzzer. Only when both players make their selection, can they move on to the next question. If any of the two answers is incorrect, the team gets no points.
-<div style="text-align:center">
+<figure style="text-align:center">
  <img src="/images/fig1.PNG" alt="hi" align = "center" height="300"/>
- <figcaption style=" text-align: center">Figure 1. Multiplayer game based on the Stroop effect: (a) The game screen of player B in the competitive mode. The locks are inactive. (b) The game screen of player A in the cooperative play, where player A has completed correctly (left lock open) but partnering player B made a mistake (right lock shows a red cross). 
-</div>
+ <figcaption>style=" text-align: center">Figure 1. Multiplayer game based on the Stroop effect: (a) The game screen of player B in the competitive mode. The locks are inactive. (b) The game screen of player A in the cooperative play, where player A has completed correctly (left lock open) but partnering player B made a mistake (right lock shows a red cross).</figcaption> 
+</figure>
 
 
 
@@ -34,10 +34,11 @@ Fig. 2. The three modes: (a) competitive mode, (b) cooperative mode e apart, (c)
 practice session which allowed the participants to familiarize themselves with the Stroop test task. In this practice session, the participants were required to finish ten questions correctly. After the practice session, the participants were asked if they needed more practice. If not, they started the formal experiment where the participants did three sessions using their assigned order. Each session consisted of two rounds of 90 s duration gameplay. Before the cooperative gameplay session, there was also an additional practice round to help players understand the cooperative game- play design.
 Participants also answered two different survey questionnaires, one per in-between sessions rest period and in the sequence dependent on their counter-balanced order. They were asked to rate their effort, focus and preference as soon as they were able to compare the competitive-vs-cooperative modes or the apart-vs- close proximity modes. Written feedback and comments were also collected.
 
-<div style="text-align:center">
+<figure style="text-align:center">
  <img src="/images/fig2.PNG" alt="hi" align = "center" height="300"/>
 <figcaption style=" text-align: center">Figure 2. The three modes: (a) competitive mode, (b) cooperative mode-apart, (c) cooperative mode-close.
-  </figcaption></div>
+  </figcaption>
+</figure>
 ### Measures
 In our study, the reaction time and error rate were both used to measure the attention level. Reaction time is defined as the time lapsed from the question presented to the question being answered. And error rate is defined as the ratio of the number of incorrect answers to the number all the answers completed. Players who do not pay attention to the task is expected to take a longer time to complete the task and is more likely to make mistakes than when they are focused on the task at hand.
 ## Data analysis and results
