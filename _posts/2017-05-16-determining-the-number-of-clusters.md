@@ -6,6 +6,8 @@ label: "Machine Learning"
 imgstr: "/images/fig2_2.PNG"
 ---
 
+This work is published as <span style="color:blue"> [Yaqian Zhang, Jacek Ma\'ndziuk, Chai Hiok Quek, Wooi-Boon Goh. Curvature-based method for determining the number of clusters. _Information Sciences_, 415:414-428, 2017](https://github.com/YaqianZhang/yaqianzhang.github.io/blob/master/papers/17_YaqianZhang_Curvature_Cluster_InformationScience.pdf).</span>
+
 Determining the number of clusters is one of the research questions attracting considerable interests in recent years. Majority of the existing methods require parametric assumptions and substantiated computations. In this work, we proposed a simple yet powerful method for determining the number of clusters based on curvature. Our technique is computationally efficient and straightforward to implement. We compare our method with 6 other approaches on a wide range of simulated and real-world datasets. Theoretical motivation underlying the proposed method is also presented.
 
 
