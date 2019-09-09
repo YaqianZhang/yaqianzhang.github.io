@@ -5,7 +5,7 @@ date: 2018-06-30
 label: "Reinforcement Learning"
 imgstr: "/images/bpg_pic/strong_weak.png"
 ---
-This work is published in this [paper](http://www.ifaamas.org/Proceedings/aamas2019/pdfs/p711.pdf).
+_This work is published in this [paper](http://www.ifaamas.org/Proceedings/aamas2019/pdfs/p711.pdf)._
 
 One challenge for an intelligent interactive tutoring agent is to
 autonomously determine the difficulty levels of the questions presented
