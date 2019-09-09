@@ -16,7 +16,7 @@ The purpose of the study is to develop a data-driven method to adaptively adjust
   </figure>
 ## Algorithm: Machine Learning-Based Difficulty Adaptation
 <figure style="text-align:center">
-<img src="/images/vmg/overview_ML_dda.png" alt="hi" class="inline" width="300" />
+<img src="/images/vmg/overview_ML_dda.png" alt="hi" class="inline" width="600" />
   <figcaption style="text-align:center">Figure 2. Overview structure of ML-based dynamic difficulty adaptation combining difficulty ranking  personalization and stochastic difficulty adjustment</figcaption>
   </figure>
 
@@ -26,11 +26,11 @@ The participants will play an online game to complete 25 visual memory tasks.
 
 ## Result
 <figure style="text-align:center">
-<img src="/images/vmg/fast_slow.png" alt="hi" class="inline" width="300" />
+<img src="/images/vmg/fast_slow.png" alt="hi" class="inline" width="400" />
   <figcaption style="text-align:center">Figure 3. The memorization time variations in three difficutly adaptation modes for fast and slow players as the game progresses</figcaption>
   </figure>
 
 <figure style="text-align:center">
-<img src="/images/vmg/performanceDis_binmap.png" alt="hi" class="inline" width="300" />
+<img src="/images/vmg/performanceDis_binmap.png" alt="hi" class="inline" width="400" />
   <figcaption style="text-align:center">Figure 4. Performance disparity at the start stage and end stage of the game</figcaption>
   </figure>
