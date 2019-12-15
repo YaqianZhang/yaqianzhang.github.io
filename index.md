@@ -2,9 +2,7 @@
 layout: default
 ---
 
-<!--# Welcome to Yaqian's homepage!--!>
-
-
+# Welcome to Yaqian's homepage!
 I'm a Ph.D. candidate in [Nanyang Technological University (NTU)](https://www.ntu.edu.sg). I'm currently working on developing efficient machine learning algorithms to facilitate human-computer interaction. Here is my [CV](about/document.pdf).Before coming to Singapore, I got my Bachelor degree from [Shanghai Jiao Tong University (SJTU)](http://en.sjtu.edu.cn/), in 2015. 
 
 ## Research Interests
@@ -20,7 +18,6 @@ I'm a Ph.D. candidate in [Nanyang Technological University (NTU)](https://www.nt
 * [May. 2018]  Our work on [Cooperative Gameplay](papers/18_YaqianZhang_PeerAccountability_CHB.pdf) is accepted by the journal of _Computers in Human Behavior_.
 * [Dec. 2017]  A multiplayer tablet game based on Stroop Effect is launched.
 * [May. 2017]  Our work on [Cluster Number Detection](papers/17_YaqianZhang_Curvature_Cluster_InformationScience.pdf) is accepted by the journal of _Information Sciences_.
-
 
 ## Contact
 Email: yzhang117@e.ntu.edu.sg
