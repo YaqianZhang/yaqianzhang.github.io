@@ -9,10 +9,10 @@ layout: default
 There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project. -->
-# Welcome to Yaqian's homepage!
+<!--# Welcome to Yaqian's homepage!--!>
 
 
-I'm a Ph.D. candidate in [Nanyang Technological University (NTU)](https://www.ntu.edu.sg). Before coming to Singapore, I got my Bachelor degree from [Shanghai Jiao Tong University (SJTU)](http://en.sjtu.edu.cn/), in 2015. I'm currently working on developing efficient machine learning algorithms to facilitate human-computer interaction. Here is my [CV](about/document.pdf).
+I'm a Ph.D. candidate in [Nanyang Technological University (NTU)](https://www.ntu.edu.sg). I'm currently working on developing efficient machine learning algorithms to facilitate human-computer interaction. Here is my [CV](about/document.pdf).Before coming to Singapore, I got my Bachelor degree from [Shanghai Jiao Tong University (SJTU)](http://en.sjtu.edu.cn/), in 2015. 
 
 ## Research Interests
 *   Reinforcement Learning
