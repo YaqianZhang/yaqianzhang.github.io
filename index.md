@@ -20,8 +20,11 @@ I'm a fourth-year Ph.D. candidate in [Nanyang Technological University (NTU)](ht
 *   Human Computer Interaction
 
 ## News
+* [Dec.2019]  Completed oral defense.
 * [Aug.2019]  Submitted Ph.D. thesis for review.
-* [Dec.2018]  A paper accepted at AAMAS'19
+* [Jan.2019]  [An online visua memory game "Pals"](http://vmg23apr-env.wipf9rh8mt.ap-southeast-1.elasticbeanstalk.com/vmg_23_Apr/) is launched.
+* [Dec.2018]  Our work on Bootstrapped Policy Gradient is accepted at AAMAS'19.
+
 
 ## Contact
 Email: yzhang117@e.ntu.edu.sg
