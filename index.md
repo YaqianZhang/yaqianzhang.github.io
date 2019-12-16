@@ -11,7 +11,7 @@ I'm a Ph.D. candidate in [Nanyang Technological University (NTU)](https://www.nt
 
 My goal is to develop efficient machine learning algorithms to faciliate high-quality interation experience in interative systems. One idea we've explored is to apply reinforcement learning to dynamic adapt difficulty levels for each individual users. Despite the successes of machine learning, it is still chanllenging to applying machine learning to interactive systmes due to the special constraints on sample efficiency.  To make policy gradient applicable for interactive system, we shows that the sample efficiency of policy gradient can be significantly improved by bootstrapping with better/worse action sets ([AAMAS 2019](papers/19_YaqianZhang_BootstrappedPolicyGradient_aamas.pdf)).
 
-The fundamental questions regarding traditional ML algorithms also fascinates me. On this note, we shows that the curvature of evaluation graph can be used to extend the traditinonal "knee/elbow" method to detect the number of clusters in a more precise way ([Information Sciences(papers/17_YaqianZhang_Curvature_Cluster_InformationScience.pdf)]).
+The fundamental questions regarding traditional ML algorithms also fascinates me. On this note, we shows that the curvature of evaluation graph can be used to extend the traditinonal "knee/elbow" method to detect the number of clusters in a more precise way ([Information Sciences](papers/17_YaqianZhang_Curvature_Cluster_InformationScience.pdf)).
 
 I'm interested in understanding human behavior. I've conducted a inter-displinary research method, including design systems and conducting online and offline user studies ([Computers in Human Behavior](papers/18_YaqianZhang_PeerAccountability_CHB.pdf) ).
 
