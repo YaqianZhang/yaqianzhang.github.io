@@ -8,6 +8,8 @@ I'm a Ph.D. candidate in [Nanyang Technological University (NTU)](https://www.nt
 *   Reinforcement Learning
 *   Machine Learning
 *   Human-Computer Interaction
+I'm interested in developing efficient machine learning algorithms to facilate the design of interactive systems design. One idea I've explored is to apply reinforcement learning to dynamic adapt difficulty levels for each individual users.
+The fundamental questions regarding the robustness and efficiency of ML algorithms also fascinates me. On this note, we shows that the sample efficiency of policy gradient can be significantly improved by bootstrapping with better/worse action sets.
 
 ## News
 * [Dec. 2019]  Completed oral defense.
