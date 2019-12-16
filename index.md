@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+# Welcome to my homepage!
 I'm a Ph.D. candidate in [Nanyang Technological University (NTU)](https://www.ntu.edu.sg). I'm currently working on developing efficient machine learning algorithms to facilitate human-computer interaction. Here is my [CV](about/document.pdf).Before coming to Singapore, I got my Bachelor degree from [Shanghai Jiao Tong University (SJTU)](http://en.sjtu.edu.cn/), in 2015. 
 
 ## Research Interests
@@ -19,7 +19,8 @@ I'm a Ph.D. candidate in [Nanyang Technological University (NTU)](https://www.nt
 * [May. 2017]  Our work on [Cluster Number Detection](papers/17_YaqianZhang_Curvature_Cluster_InformationScience.pdf) is accepted by the journal of _Information Sciences_.
 
 ## Contact
-Email: yzhang117@e.ntu.edu.sg
+Email: yzhang117 [at] e.ntu.edu.sg
+
 
 ## Publications
 * **Yaqian Zhang**, Wooi-Boon Goh, "Bootstrapped Policy Gradient for Difficulty Adaptation in Intelligent Tutoring Systems" Proceedings of the 18th International Joint Conference on Autonomous Agents and Multi-Agent Systems (AAMAS'19). [(paper)](papers/19_YaqianZhang_BootstrappedPolicyGradient_aamas.pdf)
