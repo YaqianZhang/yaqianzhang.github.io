@@ -11,7 +11,7 @@ The fundamental questions in Machine Learning (ML) research also fascinates me. 
 
 I'm also interested in achieving a deeper understanding of human behavior. To this end, I've employed an inter-disciplinary research method, to design practical gaming systems ([a multiplay game](_posts/2018-02-16-peer-accountability-on-attention.md),  [an online game](_posts/2018-06-30-difficulty-adjustment-for-visual-memory-training.md)) and conduct online and offline user studies. New insights on the effects of gameplay design elements on the users' selective attention have been obtained. ([Computers in Human Behavior 2018](papers/18_YaqianZhang_PeerAccountability_CHB.pdf) ).
 
-**Keywords: _Reinforcement Learning_, _Machine Learning_, _Human-Computer Interaction_**
+**Keywords: Reinforcement Learning, Machine Learning, Human-Computer Interaction**
 
 
 
