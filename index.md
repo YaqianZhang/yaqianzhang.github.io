@@ -4,16 +4,17 @@ layout: default
 # Welcome to my homepage!
 I'm a Ph.D. candidate in [Nanyang Technological University (NTU)](https://www.ntu.edu.sg). I'm currently working on developing efficient machine learning algorithms to facilitate human-computer interaction. Here is my [CV](about/document.pdf). Before coming to Singapore, I got my Bachelor degree from [Shanghai Jiao Tong University (SJTU)](http://en.sjtu.edu.cn/), in 2015. 
 
-## Research Interests
-*   Reinforcement Learning
-*   Machine Learning
-*   Human-Computer Interaction
+## Research
+My goal is to develop efficient machine learning algorithms to faciliate high-quality interation experience in interative systems. 
 
-My goal is to develop efficient machine learning algorithms to faciliate high-quality interation experience in interative systems. One idea we've explored is to apply reinforcement learning to dynamic adapt difficulty levels for each individual users. Despite the successes of machine learning, it is still chanllenging to applying machine learning to interactive systmes due to the special constraints on sample efficiency.  To make policy gradient applicable for interactive system, we shows that the sample efficiency of policy gradient can be significantly improved by bootstrapping with better/worse action sets ([AAMAS 2019](papers/19_YaqianZhang_BootstrappedPolicyGradient_aamas.pdf)).
+One idea we've explored is to apply reinforcement learning to autonomously adjust the difficulty levels for users. A key challenge of applying machine learning to interactive systmes lies in sample efficiency.  
+We shows that the sample efficiency of policy gradient can be significantly improved by bootstrapping it with better/worse action sets ([AAMAS 2019](papers/19_YaqianZhang_BootstrappedPolicyGradient_aamas.pdf)).
 
-The fundamental questions regarding traditional ML algorithms also fascinates me. On this note, we shows that the curvature of evaluation graph can be used to extend the traditinonal "knee/elbow" method to detect the number of clusters in a more precise way ([Information Sciences](papers/17_YaqianZhang_Curvature_Cluster_InformationScience.pdf)).
+The fundamental questions regarding traditional ML research also fascinates me. On this note, we proposed a simple yet powerful method for detection of cluster number. Specifically,  we showed that the curvature informaiton can be used to detect the "knee/elbow" point of the evaluation graph in a more precise way ([Information Sciences](papers/17_YaqianZhang_Curvature_Cluster_InformationScience.pdf)).
 
-I'm interested in understanding human behavior. I've conducted a inter-displinary research method, including design systems and conducting online and offline user studies ([Computers in Human Behavior](papers/18_YaqianZhang_PeerAccountability_CHB.pdf) ).
+I'm also interested in achieving a deeper understanding of human behavior. I've employed a inter-displinary research method, to design and conduct online and offline user studies ([Computers in Human Behavior](papers/18_YaqianZhang_PeerAccountability_CHB.pdf) ).
+
+Keywords: Reinforcement Learning, Machine Learning, Human-Computer Interaction
 
 
 
