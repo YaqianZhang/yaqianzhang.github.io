@@ -9,7 +9,7 @@ My goal is to develop efficient machine learning algorithms to support high-qual
 
 The fundamental questions in Machine Learning (ML) research also fascinates me. On this note, we proposed a simple yet powerful method for the detection of cluster number. We found that the curvature information can be used to detect the "knee/elbow" point of the evaluation graph ([Information Sciences 2017](papers/17_YaqianZhang_Curvature_Cluster_InformationScience.pdf)).
 
-I'm also interested in achieving a deeper understanding of human behavior. I've employed an interdisciplinary research method, to design practical gaming systems ([a multiplay game](_posts/2018-02-16-peer-accountability-on-attention.md),  [an online game](_posts/2018-06-30-difficulty-adjustment-for-visual-memory-training.md)) and conduct online and offline user studies. ([Computers in Human Behavior 2018](papers/18_YaqianZhang_PeerAccountability_CHB.pdf) ).
+I'm also interested in achieving a deeper understanding of human behavior. I've employed an interdisciplinary research method, to design and implement practical gaming systems ([a multiplay game](_posts/2018-02-16-peer-accountability-on-attention.md),  [an online game](_posts/2018-06-30-difficulty-adjustment-for-visual-memory-training.md)) and conduct online and offline user studies. ([Computers in Human Behavior 2018](papers/18_YaqianZhang_PeerAccountability_CHB.pdf) ).
 
 **Research Interests**: Reinforcement Learning; Machine Learning; Human-Computer Interaction.
 
