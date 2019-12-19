@@ -2,16 +2,16 @@
 layout: default
 ---
 # Welcome to my homepage!
-I'm a Ph.D. candidate in [Nanyang Technological University (NTU)](https://www.ntu.edu.sg). I'm currently working on developing efficient machine learning algorithms to facilitate human-computer interaction. Here is my [CV](about/document.pdf). Before coming to Singapore, I got my Bachelor degree from [Shanghai Jiao Tong University (SJTU)](http://en.sjtu.edu.cn/), in 2015. 
+I'm a final-year Ph.D. candidate in [Nanyang Technological University (NTU)](https://www.ntu.edu.sg). I'm currently working on developing efficient machine learning algorithms to facilitate human-computer interaction. Here is my [CV](about/document.pdf). Before coming to Singapore, I got my Bachelor degree from [Shanghai Jiao Tong University (SJTU)](http://en.sjtu.edu.cn/), in 2015. 
 
 ## Research
-My goal is to develop efficient machine learning algorithms to support high-quality interaction experience. One idea we've explored is to apply Reinforcement Learning (RL) to autonomously adjust the difficulty levels for the users. A key challenge of applying RL to interactive systems is sample efficiency. We show that the sample efficiency of policy gradient can be significantly improved by bootstrapping it with better/worse action sets ([AAMAS 2019](papers/19_YaqianZhang_BootstrappedPolicyGradient_aamas.pdf)). This finding makes policy gradient methods applicable in challenging environments with large action space and short exploration horizon.
+My goal is to develop efficient machine learning algorithms to support high-quality interaction experience. One idea we've explored is to apply Reinforcement Learning (RL) to autonomously adjust the difficulty levels for the users. We show that the sample efficiency of policy gradient can be significantly improved by bootstrapping it with better/worse action sets ([AAMAS 2019](papers/19_YaqianZhang_BootstrappedPolicyGradient_aamas.pdf)).
 
-The fundamental questions in Machine Learning (ML) research also fascinates me. On this note, we proposed a simple yet powerful method for the detection of cluster number. Specifically,  we showed that the curvature information can be used to detect the "knee/elbow" point of the evaluation graph in a precise way ([Information Sciences 2017](papers/17_YaqianZhang_Curvature_Cluster_InformationScience.pdf)). The proposed approach outperforms state-of-art methods and achieves robust performances for complex datasets.
+The fundamental questions in Machine Learning (ML) research also fascinates me. On this note, we proposed a simple yet powerful method for the detection of cluster number. We found that the curvature information can be used to detect the "knee/elbow" point of the evaluation graph in a precise way ([Information Sciences 2017](papers/17_YaqianZhang_Curvature_Cluster_InformationScience.pdf)).
 
-I'm also interested in achieving a deeper understanding of human behavior. To this end, I've employed an interdisciplinary research method, to design practical gaming systems ([a multiplay game](_posts/2018-02-16-peer-accountability-on-attention.md),  [an online game](_posts/2018-06-30-difficulty-adjustment-for-visual-memory-training.md)) and conduct online and offline user studies. New insights on the effects of gameplay design elements on the users' selective attention have been obtained. ([Computers in Human Behavior 2018](papers/18_YaqianZhang_PeerAccountability_CHB.pdf) ).
+I'm also interested in achieving a deeper understanding of human behavior. I've employed an interdisciplinary research method, to design practical gaming systems ([a multiplay game](_posts/2018-02-16-peer-accountability-on-attention.md),  [an online game](_posts/2018-06-30-difficulty-adjustment-for-visual-memory-training.md)) and conduct online and offline user studies. ([Computers in Human Behavior 2018](papers/18_YaqianZhang_PeerAccountability_CHB.pdf) ).
 
-**Keywords: Reinforcement Learning, Machine Learning, Human-Computer Interaction**
+**Research Interests**: Reinforcement Learning, Machine Learning, Human-Computer Interaction
 
 
 
