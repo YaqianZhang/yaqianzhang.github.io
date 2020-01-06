@@ -40,7 +40,10 @@ Email: yzhang117 [at] e.ntu.edu.sg
 
 * Enmei Tu, Jie Yang, Nikola Kasabov, **Yaqian Zhang**, "Posterior Distribution Learning (PDL): A novel supervised learning framework using unlabeled samples to improve classification performance". Neurocomputing 157(2015): 173-186.
 
-
+## Projects
+Reinforcement Learning | Cluster Analysis | Cooperative Play
+------------ | -------------| -------------
+<img src="images/IMG_2041.JPG" class="inline" width="100"/>|<img src="images/IMG_2041.JPG" class="inline" width="100"/>|<img src="images/IMG_2041.JPG" alt="hi" class="inline" width="100"/>
 
 
 
