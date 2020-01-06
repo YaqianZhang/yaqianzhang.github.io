@@ -30,9 +30,9 @@ Email: yzhang117 [at] e.ntu.edu.sg
 
 
 ## Publications
-* **Yaqian Zhang**, Wooi-Boon Goh, "Bootstrapped Policy Gradient for Difficulty Adaptation in Intelligent Tutoring Systems" Proceedings of the 18th International Joint Conference on Autonomous Agents and Multi-Agent Systems (AAMAS'19). [(paper)](papers/19_YaqianZhang_BootstrappedPolicyGradient_aamas.pdf)
+* **Yaqian Zhang**, Wooi-Boon Goh, "Bootstrapped Policy Gradient for Difficulty Adaptation in Intelligent Tutoring Systems" Proceedings of the 18th International Joint Conference on Autonomous Agents and Multi-Agent Systems (AAMAS'19). [(paper)](papers/19_YaqianZhang_BootstrappedPolicyGradient_aamas.pdf) [(code)](https://github.com/YaqianZhang/Bootstrapped-policy-gradient-for-difficutly-adaptation)
 
-* **Yaqian Zhang**, Wooi-Boon Goh, "The influence of peer accountability on attention during gameplay." Computers in Human Behavior 84 (2018): 18-28. [(paper)](papers/18_YaqianZhang_PeerAccountability_CHB.pdf)
+* **Yaqian Zhang**, Wooi-Boon Goh, "The influence of peer accountability on attention during gameplay." Computers in Human Behavior 84 (2018): 18-28. [(paper)](papers/18_YaqianZhang_PeerAccountability_CHB.pdf)[(Project Website)](https://yaqianzhang.github.io/2018/02/16/peer-accountability-on-attention.html)
 
 * **Yaqian Zhang**, Jacek Mańdziuk, Chai Hiok Quek, Wooi-Boon Goh, "Curvature-based method for determining the number of clusters." Information Sciences 415 (2017): 414-428. [(paper)](papers/17_YaqianZhang_Curvature_Cluster_InformationScience.pdf)
 
@@ -40,10 +40,9 @@ Email: yzhang117 [at] e.ntu.edu.sg
 
 * Enmei Tu, Jie Yang, Nikola Kasabov, **Yaqian Zhang**, "Posterior Distribution Learning (PDL): A novel supervised learning framework using unlabeled samples to improve classification performance". Neurocomputing 157(2015): 173-186.
 
-<!--<img src="images/IMG_9401.JPG" alt="hi" class="inline" width="300"/>
-<img src="images/IMG_2041.JPG" alt="hi" class="inline" width="300"/>--!>
 
-## Projects
+
+
 
 
 
