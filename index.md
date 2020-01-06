@@ -2,7 +2,7 @@
 layout: default
 ---
 # Welcome to my homepage!
-I'm a final-year Ph.D. candidate in [Nanyang Technological University (NTU)](https://www.ntu.edu.sg). I'm currently working on developing efficient machine learning algorithms to facilitate human-computer interaction. Here is my [CV](about/document.pdf). Before coming to Singapore, I got my Bachelor degree from [Shanghai Jiao Tong University (SJTU)](http://en.sjtu.edu.cn/), in 2015. 
+I'm a final-year Ph.D. candidate in [Nanyang Technological University (NTU)](https://www.ntu.edu.sg). I'm currently working on developing efficient machine learning algorithms to facilitate human-computer interaction. Here is my [CV](about/CV_Yaqian_Zhang.pdf). Before coming to Singapore, I got my Bachelor degree from [Shanghai Jiao Tong University (SJTU)](http://en.sjtu.edu.cn/), in 2015. 
 
 ## Research
 My goal is to develop efficient machine learning algorithms to support high-quality interaction experience. One idea we've explored is to apply Reinforcement Learning (RL) to autonomously adjust the difficulty levels for the users. We showed that the sample efficiency of policy gradient can be significantly improved by bootstrapping it with better/worse action sets ([AAMAS 2019](papers/19_YaqianZhang_BootstrappedPolicyGradient_aamas.pdf)).
@@ -17,7 +17,7 @@ I'm also interested in achieving a deeper understanding of human behavior. I've 
 
 ## News
 * [Dec. 2019]  Completed oral defense.
-* [Aug. 2019]  Submitted Ph.D. thesis for review.
+* [Aug. 2019]  Submitted [Ph.D. thesis](papers/Thesis_Amended_ZHANG_Yaqian.pdf) for review.
 * [Jan. 2019]   [An online visua memory game "Pals"](http://vmg23apr-env.wipf9rh8mt.ap-southeast-1.elasticbeanstalk.com/vmg_23_Apr/) is released.
 * [Dec. 2018]  Our work on [Bootstrapped Policy Gradient](papers/19_YaqianZhang_BootstrappedPolicyGradient_aamas.pdf) is accepted at AAMAS'19.
 * [May. 2018]  Our work on [Cooperative Gameplay](papers/18_YaqianZhang_PeerAccountability_CHB.pdf) is accepted by the journal of _Computers in Human Behavior_.
@@ -40,8 +40,10 @@ Email: yzhang117 [at] e.ntu.edu.sg
 
 * Enmei Tu, Jie Yang, Nikola Kasabov, **Yaqian Zhang**, "Posterior Distribution Learning (PDL): A novel supervised learning framework using unlabeled samples to improve classification performance". Neurocomputing 157(2015): 173-186.
 
-<img src="images/IMG_9401.JPG" alt="hi" class="inline" width="300"/>
-<img src="images/IMG_2041.JPG" alt="hi" class="inline" width="300"/>
+<!--<img src="images/IMG_9401.JPG" alt="hi" class="inline" width="300"/>
+<img src="images/IMG_2041.JPG" alt="hi" class="inline" width="300"/>--!>
+
+## Projects
 
 
 
