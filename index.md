@@ -43,11 +43,13 @@ Email: yzhang117 [at] e.ntu.edu.sg
 ## Projects
 
 
-Reinforcement Learning | Cluster Analysis | Cooperative Play 
-:------------: | :-------------:| :-------------:
-Enhance sample efficiency with bootstrapped policy gradient with better/worse actions [[more]](https://yaqianzhang.github.io/2018/06/30/boostrapped-policy-gradient.html)<img src="/images/bpg_pic/strong_weak.png" class="inline" width="220"/>| Curvatue-based method for cluster number determination [[more]](https://yaqianzhang.github.io/2017/05/16/determining-the-number-of-clusters.html)<img src="/images/fig2_2.PNG" class="inline" width="220"/>| The influence of peer accountability on attention [[more]](https://yaqianzhang.github.io/2018/02/16/peer-accountability-on-attention.html)<img src="/images/fig1.PNG" alt="hi" class="inline" width="220"/>
+Reinforcement Learning | Cluster Analysis 
+:------------: | :-------------:
+Enhance sample efficiency with bootstrapped policy gradient with better/worse actions [[more]](https://yaqianzhang.github.io/2018/06/30/boostrapped-policy-gradient.html)<img src="/images/bpg_pic/strong_weak.png" class="inline" width="230"/>| Curvatue-based method for cluster number determination [[more]](https://yaqianzhang.github.io/2017/05/16/determining-the-number-of-clusters.html)<img src="/images/fig2_2.PNG" class="inline" width="230"/>
 
-
+Difficulty Adaptation| Cooperative Play 
+:------------: | :-------------:
+Robust Dynamic Difficulty Adaptation in intelligent tutoring systems [[more]](https://yaqianzhang.github.io/2018/06/30/difficulty-adjustment-for-visual-memory-training.html)<img src="/images/MainGameScreen.png" class="inline" width="230"/>| The influence of peer accountability on attention [[more]](https://yaqianzhang.github.io/2018/02/16/peer-accountability-on-attention.html)<img src="/images/fig1.PNG" alt="hi" class="inline" width="230"/>
 
 
 
