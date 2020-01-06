@@ -45,7 +45,7 @@ Email: yzhang117 [at] e.ntu.edu.sg
 
 Reinforcement Learning | Cluster Analysis 
 :------------: | :-------------:
-Enhance sample efficiency with bootstrapped policy gradient with better/worse actions [[more]](https://yaqianzhang.github.io/2018/06/30/boostrapped-policy-gradient.html)<img src="/images/bpg_pic/strong_weak.png" class="inline" width="210"/>| Curvatue-based method for cluster number determination [[more]](https://yaqianzhang.github.io/2017/05/16/determining-the-number-of-clusters.html)<img src="/images/fig2_2.PNG" class="inline" width="200"/>
+Enhance sample efficiency with bootstrapped policy gradient with better/worse actions [[more]](https://yaqianzhang.github.io/2018/06/30/boostrapped-policy-gradient.html)<img src="/images/bpg_pic/strong_weak.png" class="inline" width="200"/>| Curvatue-based method for cluster number determination [[more]](https://yaqianzhang.github.io/2017/05/16/determining-the-number-of-clusters.html)<img src="/images/fig2_2.PNG" class="inline" width="200"/>
 
 Difficulty Adaptation| Cooperative Play 
 :------------: | :-------------:
