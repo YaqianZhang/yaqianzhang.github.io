@@ -43,9 +43,9 @@ Email: yzhang117 [at] e.ntu.edu.sg
 ## Projects
 
 
-[Reinforcement Learning](https://yaqianzhang.github.io/2018/06/30/boostrapped-policy-gradient.html) | [Cluster Analysis](https://yaqianzhang.github.io/2017/05/16/determining-the-number-of-clusters.html) | [Cooperative Play](https://yaqianzhang.github.io/2018/02/16/peer-accountability-on-attention.html) 
+Reinforcement Learning | Cluster Analysis | Cooperative Play 
 ------------ | -------------| -------------
-<img src="/images/bpg_pic/strong_weak.png" class="inline" width="200"/>| <img src="/images/fig2_2.PNG" class="inline" width="200"/>| <img src="/images/fig1.PNG" alt="hi" class="inline" width="200"/>
+Enhance sample efficiency with bootstrapped policy gradient[<img src="/images/bpg_pic/strong_weak.png" class="inline" width="200"/>](https://yaqianzhang.github.io/2018/06/30/boostrapped-policy-gradient.html)| Curvatue-based method for cluster number determination[<img src="/images/fig2_2.PNG" class="inline" width="200"/>](https://yaqianzhang.github.io/2017/05/16/determining-the-number-of-clusters.html)| The influence of peer accountability on attention[<img src="/images/fig1.PNG" alt="hi" class="inline" width="200"/>](https://yaqianzhang.github.io/2018/02/16/peer-accountability-on-attention.html)
 
 
 
