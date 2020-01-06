@@ -23,7 +23,7 @@ I'm also interested in applying machine learning to real-world problems. On this
 * [May. 2018]  Our work on [Cooperative Gameplay](papers/18_YaqianZhang_PeerAccountability_CHB.pdf) is accepted by the journal of _Computers in Human Behavior_.
 * [Dec. 2017]  A multiplayer tablet game based on Stroop Effect is launched.
 * [May. 2017]  Our work on [Cluster Number Detection](papers/17_YaqianZhang_Curvature_Cluster_InformationScience.pdf) is accepted by the journal of _Information Sciences_.
-* [Dec 2015] Our game _Guardians of the Galaxy_ won the third prize in the [NTU MAGIC Game Challenge 2015](https://magic.ntu.edu.sg/programmes/Education/Pages/MAGIC-Game-Challenge-2015.aspx)
+* [Dec 2015] Our team won the third prize in the [NTU MAGIC Game Challenge 2015](https://magic.ntu.edu.sg/programmes/Education/Pages/MAGIC-Game-Challenge-2015.aspx)
 
 ## Contact
 Email: yzhang117 [at] e.ntu.edu.sg
