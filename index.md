@@ -16,7 +16,7 @@ I'm also interested in applying machine learning to real-world problems. On this
 
 
 ## News
-* [Dec. 2019]  Completed oral defense [(slide)](papers/Oral_defense_ZYQ_upload.pptx).
+* [Dec. 2019]  Completed [oral defense](images/oral_defense.png) [(slide)](papers/Oral_defense_ZYQ_upload.pptx).
 * [Aug. 2019]  Submitted [Ph.D. thesis](papers/Thesis_Amended_ZHANG_Yaqian.pdf) for review.
 * [Jan. 2019]   [An online visua memory game "Pals"](http://vmg23apr-env.wipf9rh8mt.ap-southeast-1.elasticbeanstalk.com/vmg_23_Apr/) is released.
 * [Dec. 2018]  Our work on [Bootstrapped Policy Gradient](papers/19_YaqianZhang_BootstrappedPolicyGradient_aamas.pdf) is accepted at AAMAS'19.
