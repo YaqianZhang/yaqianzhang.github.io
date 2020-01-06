@@ -43,7 +43,7 @@ Email: yzhang117 [at] e.ntu.edu.sg
 ## Projects
 Reinforcement Learning | Cluster Analysis | Cooperative Play
 ------------ | -------------| -------------
-[<img src="images/IMG_2041.JPG" class="inline" width="100"/>](https://yaqianzhang.github.io/2018/06/30/boostrapped-policy-gradient.html)|[<img src="images/IMG_2041.JPG" class="inline" width="100"/>](https://yaqianzhang.github.io/2017/05/16/determining-the-number-of-clusters.html)|[<img src="images/IMG_2041.JPG" alt="hi" class="inline" width="100"/>](https://yaqianzhang.github.io/2018/02/16/peer-accountability-on-attention.html)
+[<img src="/images/bpg_pic/strong_weak.png" class="inline" width="100"/>](https://yaqianzhang.github.io/2018/06/30/boostrapped-policy-gradient.html) | [<img src="/images/fig2_2.PNG" class="inline" width="100"/>](https://yaqianzhang.github.io/2017/05/16/determining-the-number-of-clusters.html) | [<img src="/images/fig1.PNG" alt="hi" class="inline" width="100"/>](https://yaqianzhang.github.io/2018/02/16/peer-accountability-on-attention.html)
 
 
 
