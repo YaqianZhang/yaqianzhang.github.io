@@ -45,6 +45,10 @@ Email: yzhang117 [at] e.ntu.edu.sg
 ------------ | ------------- | -------------
 <img src="/images/bpg_pic/strong_weak.png" class="inline" width="100"/> | <img src="/images/fig2_2.PNG" class="inline" width="100"/> | <img src="/images/fig1.PNG" alt="hi" class="inline" width="100"/>
 
+Name | Submission Deadline | Conference Location 
+------------ | -------------| -------------
+[AAAI-20](https://aaai.org/Conferences/AAAI-20/)| 05-Sep-2019| New York, USA
+
 
 
 
