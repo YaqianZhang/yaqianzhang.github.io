@@ -49,7 +49,7 @@ Enhance sample efficiency with bootstrapped policy gradient with better/worse ac
 
 Difficulty Adaptation| Cooperative Play 
 :------------: | :-------------:
-Robust Dynamic Difficulty Adaptation in intelligent tutoring systems [[more]](https://yaqianzhang.github.io/2018/06/30/difficulty-adjustment-for-visual-memory-training.html)<img src="/images/MainGameScreen.png" class="inline" width="200"/>| The influence of peer accountability on attention [[more]](https://yaqianzhang.github.io/2018/02/16/peer-accountability-on-attention.html)<img src="/images/fig1.PNG" alt="hi" class="inline" width="200"/>
+Robust Dynamic Difficulty Adaptation in intelligent tutoring systems [[more]](https://yaqianzhang.github.io/2018/06/30/difficulty-adjustment-for-visual-memory-training.html)<img src="/images/MainGameScreen.png"  width="200"/>| The influence of peer accountability on attention [[more]](https://yaqianzhang.github.io/2018/02/16/peer-accountability-on-attention.html)<img src="/images/fig1.PNG" alt="hi"  width="200"/>
 
 
 
