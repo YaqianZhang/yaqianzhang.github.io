@@ -31,6 +31,8 @@ Email: yzhang117 [at] e.ntu.edu.sg
 
 
 ## Publications
+* **Yaqian Zhang**, Wooi-Boon Goh, "Reinforcement learning-based adaptive task difficulty personalization" User Modeling and User-Adapted Interaction (Under review).
+
 * **Yaqian Zhang**, Wooi-Boon Goh, "Bootstrapped Policy Gradient for Difficulty Adaptation in Intelligent Tutoring Systems" Proceedings of the 18th International Joint Conference on Autonomous Agents and Multi-Agent Systems (AAMAS'19). [(paper)](papers/19_YaqianZhang_BootstrappedPolicyGradient_aamas.pdf) [(code)](https://github.com/YaqianZhang/Bootstrapped-policy-gradient-for-difficutly-adaptation) [(Project Website)](https://yaqianzhang.github.io/2018/06/30/boostrapped-policy-gradient.html)
 
 * **Yaqian Zhang**, Wooi-Boon Goh, "The influence of peer accountability on attention during gameplay." Computers in Human Behavior 84 (2018): 18-28. [(paper)](papers/18_YaqianZhang_PeerAccountability_CHB.pdf) [(Project Website)](https://yaqianzhang.github.io/2018/02/16/peer-accountability-on-attention.html)
