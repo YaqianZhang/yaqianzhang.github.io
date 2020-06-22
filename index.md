@@ -55,7 +55,7 @@ Difficulty Adaptation| Cooperative Play
 Robust Dynamic Difficulty Adaptation in intelligent tutoring systems [[more]](https://yaqianzhang.github.io/2018/06/30/difficulty-adjustment-for-visual-memory-training.html)<img src="/images/MainGameScreen.png"  width="200"/>| The influence of peer accountability on attention [[more]](https://yaqianzhang.github.io/2018/02/16/peer-accountability-on-attention.html)<img src="/images/fig1.PNG" alt="hi"  width="200"/>
 
 <script type="text/javascript" src="//rf.revolvermaps.com/0/0/4.js?i=5cztv8gfod5&amp;m=0&amp;h=140&amp;c=ff0000&amp;r=15" async="async"></script>
-<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?d=xIwaryjrUMegqbYCUHOS1K_baGQFUMlMuAIjCVQVMw4&cl=ffffff&w=a"></script>
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=100&t=n&d=xIwaryjrUMegqbYCUHOS1K_baGQFUMlMuAIjCVQVMw4'></script>
 
 
 
