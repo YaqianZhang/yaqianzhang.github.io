@@ -2,7 +2,7 @@
 layout: default
 ---
 # Welcome to my homepage!
-I'm a Research Assitant Professor in [Shanghai Jiao Tong University (SJTU)](http://en.sjtu.edu.cn/). I obtained my PhD degree from [Nanyang Technological University (NTU)](https://www.ntu.edu.sg) in 2020. I'm currently working on developing efficient reinforcement learning algorithms to facilitate human-computer interaction.  Before coming to Singapore, I got my Bachelor degree from [Shanghai Jiao Tong University (SJTU)](http://en.sjtu.edu.cn/), in 2015. Here is my [CV](about/CV_Yaqian_Zhang.pdf).
+I'm a Research Assitant Professor in the Department of Computer Science and Engineering, [Shanghai Jiao Tong University (SJTU)](http://en.sjtu.edu.cn/). I obtained a PhD in Compputer Science from [Nanyang Technological University (NTU)](https://www.ntu.edu.sg) in 2020. I'm currently working on developing efficient reinforcement learning algorithms to facilitate human-computer interaction.  Before coming to Singapore, I got my Bachelor degree from [Shanghai Jiao Tong University (SJTU)](http://en.sjtu.edu.cn/), in 2015. Here is my [CV](about/CV_Yaqian_Zhang.pdf).
 
 ## Research
 I am particularly interested in developing statistically and computationally efficient machine learning algorithms which are applicable for real-world systems. 
@@ -16,6 +16,7 @@ I'm also interested in applying machine learning to real-world problems. On this
 
 
 ## News
+* [July. 2020]  Completed [my doctoral thesis defense](images/oral_defense.png).
 * [Dec. 2019]  Completed [my doctoral thesis defense](images/oral_defense.png).
 * [Aug. 2019]  Submitted [Ph.D. thesis](papers/Thesis_Amended_ZHANG_Yaqian.pdf) for review.
 * [Jan. 2019]   [An online visua memory game "Pals"](http://vmg23apr-env.wipf9rh8mt.ap-southeast-1.elasticbeanstalk.com/vmg_23_Apr/) is released.
