@@ -16,7 +16,7 @@ I'm also interested in applying machine learning to real-world problems. On this
 
 
 ## News
-* [July. 2020]  Completed [my doctoral thesis defense](images/oral_defense.png).
+* [July. 2020] Join SJTU.
 * [Dec. 2019]  Completed [my doctoral thesis defense](images/oral_defense.png).
 * [Aug. 2019]  Submitted [Ph.D. thesis](papers/Thesis_Amended_ZHANG_Yaqian.pdf) for review.
 * [Jan. 2019]   [An online visua memory game "Pals"](http://vmg23apr-env.wipf9rh8mt.ap-southeast-1.elasticbeanstalk.com/vmg_23_Apr/) is released.
