@@ -27,7 +27,7 @@ I'm also interested in applying machine learning to real-world problems. On this
 * [Dec 2015] Our team won the third prize in the [NTU MAGIC Game Challenge 2015](https://magic.ntu.edu.sg/programmes/Education/Pages/MAGIC-Game-Challenge-2015.aspx)
 
 ## Contact
-Email: yzhang117 [at] e.ntu.edu.sg
+Email: zhangyaqian [at] sjtu.edu.cn
 
 
 
