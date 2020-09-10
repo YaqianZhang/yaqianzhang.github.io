@@ -2,7 +2,7 @@
 layout: default
 ---
 # Welcome to my homepage!
-I'm a final-year Ph.D. candidate in [Nanyang Technological University (NTU)](https://www.ntu.edu.sg). I'm currently working on developing efficient machine learning algorithms to facilitate human-computer interaction. Here is my [CV](about/CV_Yaqian_Zhang.pdf). Before coming to Singapore, I got my Bachelor degree from [Shanghai Jiao Tong University (SJTU)](http://en.sjtu.edu.cn/), in 2015. 
+I'm a Research Assitant Professor in [Shanghai Jiao Tong University (SJTU)](http://en.sjtu.edu.cn/). I obtained my PhD degree from [Nanyang Technological University (NTU)](https://www.ntu.edu.sg) in 2020. I'm currently working on developing efficient reinforcement learning algorithms to facilitate human-computer interaction.  Before coming to Singapore, I got my Bachelor degree from [Shanghai Jiao Tong University (SJTU)](http://en.sjtu.edu.cn/), in 2015. Here is my [CV](about/CV_Yaqian_Zhang.pdf).
 
 ## Research
 I am particularly interested in developing statistically and computationally efficient machine learning algorithms which are applicable for real-world systems. 
