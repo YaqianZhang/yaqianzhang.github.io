@@ -32,7 +32,7 @@ Email: zhangyaqian [at] sjtu.edu.cn
 
 
 ## Publications
-* **Yaqian Zhang**, Wooi-Boon Goh, "Reinforcement learning-based adaptive task difficulty personalization" User Modeling and User-Adapted Interaction (Accepted).
+* **Yaqian Zhang**, Wooi-Boon Goh, "Reinforcement learning-based adaptive task difficulty personalization" User Modeling and User-Adapted Interaction (Accepted).[(project page)](https://yaqianzhang.github.io/2018/06/30/difficulty-adjustment-for-visual-memory-training.html)
 
 * **Yaqian Zhang**, Wooi-Boon Goh, "Bootstrapped Policy Gradient for Difficulty Adaptation in Intelligent Tutoring Systems" Proceedings of the 18th International Joint Conference on Autonomous Agents and Multi-Agent Systems (AAMAS'19). [(paper)](papers/19_YaqianZhang_BootstrappedPolicyGradient_aamas.pdf) [(code)](https://github.com/YaqianZhang/Bootstrapped-policy-gradient-for-difficutly-adaptation) [(project page)](https://yaqianzhang.github.io/2018/06/30/boostrapped-policy-gradient.html)
 
