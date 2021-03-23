@@ -29,7 +29,8 @@ I'm also interested in applying machine learning to real-world problems. On this
 ## Contact
 Email: zhangyaqian [at] sjtu.edu.cn
 
-
+## Teaching
+CS7327-033-M01 Neural Network Theory and Applications (Graduate course), 2021 spring
 
 ## Publications
 * **Yaqian Zhang**, Wooi-Boon Goh, "Reinforcement learning-based adaptive task difficulty personalization" User Modeling and User-Adapted Interaction (Accepted).[(project page)](https://yaqianzhang.github.io/2018/06/30/difficulty-adjustment-for-visual-memory-training.html)
