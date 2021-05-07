@@ -6,7 +6,7 @@ I'm a Research Assitant Professor in the Department of Computer Science and Engi
 
 ## Research
 I am particularly interested in developing statistically and computationally efficient machine learning algorithms which are applicable for real-world systems. 
-To improve the sample efficiency in reinforcement learning, one idea I've explored is to bootstrap policy gradient with better/worse actions. This leads to fast and unbiased convergence in challenging environments with large action space and short horizon (e.g. intelligent tutoring system) ([AAMAS 2019](papers/19_YaqianZhang_BootstrappedPolicyGradient_aamas.pdf)).
+To improve the sample efficiency in reinforcement learning, one idea I've explored is to bootstrap policy gradient with better/worse actions ([AAMAS 2019](papers/19_YaqianZhang_BootstrappedPolicyGradient_aamas.pdf)). This leads to fast and unbiased convergence in challenging environments with large action space and short horizon (e.g. intelligent tutoring system)([User Model User-Adap Inter (2021)](papers/21_YaqianZhang_RL_Difficulty_Adaptation.pdf)).
 To reduce the computational cost in cluster analysis, I proposed to exploit curvature information of the evaluation graph. This results in  a simple yet powerful method for estimating the number of clusters in a dataset ([Information Sciences 2017](papers/17_YaqianZhang_Curvature_Cluster_InformationScience.pdf)).
 I'm also interested in applying machine learning to real-world problems. On this note, I've employed an interdisciplinary research method, to design and implement practical gaming systems ([a multiplayer game](_posts/2018-02-16-peer-accountability-on-attention.md),  [an online game](_posts/2018-06-30-difficulty-adjustment-for-visual-memory-training.md)) and conduct online and offline user studies ([Computers in Human Behavior 2018](papers/18_YaqianZhang_PeerAccountability_CHB.pdf)).
 
@@ -33,9 +33,9 @@ Email: zhangyaqian [at] sjtu.edu.cn
 CS7327-033-M01 Neural Network Theory and Applications (Graduate course), 2021 spring
 
 ## Publications
-* **Yaqian Zhang**, Wooi-Boon Goh, "Personalized task difficulty adaptation based on reinforcement learning" User Modeling and User-Adapted Interaction (2021): https://doi.org/10.1007/s11257-021-09292-w.[(project page)](https://yaqianzhang.github.io/2018/06/30/difficulty-adjustment-for-visual-memory-training.html)
+* **Yaqian Zhang**, Wooi-Boon Goh, "Personalized task difficulty adaptation based on reinforcement learning" User Modeling and User-Adapted Interaction (2021).[(project page)](https://yaqianzhang.github.io/2018/06/30/difficulty-adjustment-for-visual-memory-training.html)
 
-* **Yaqian Zhang**, Wooi-Boon Goh, "Bootstrapped Policy Gradient for Difficulty Adaptation in Intelligent Tutoring Systems" Proceedings of the 18th International Joint Conference on Autonomous Agents and Multi-Agent Systems (AAMAS'19). [(paper)](papers/19_YaqianZhang_BootstrappedPolicyGradient_aamas.pdf) [(code)](https://github.com/YaqianZhang/Bootstrapped-policy-gradient-for-difficutly-adaptation) [(project page)](https://yaqianzhang.github.io/2018/06/30/boostrapped-policy-gradient.html)
+* **Yaqian Zhang**, Wooi-Boon Goh, "Bootstrapped Policy Gradient for Difficulty Adaptation in Intelligent Tutoring Systems" Proceedings of the 18th International Joint Conference on Autonomous Agents and Multi-Agent Systems (AAMAS'19). [(paper)](papers/19_YaqianZhang_BootstrappedPolicyGradient_aamas.pdf) [(code)](https://github.com/YaqianZhang/Bootstrapped-policy-gradient-for-difficutly-adaptation), [(project page)](https://yaqianzhang.github.io/2018/06/30/boostrapped-policy-gradient.html)
 
 * **Yaqian Zhang**, Wooi-Boon Goh, "The influence of peer accountability on attention during gameplay." Computers in Human Behavior 84 (2018): 18-28. [(paper)](papers/18_YaqianZhang_PeerAccountability_CHB.pdf) [(project page)](https://yaqianzhang.github.io/2018/02/16/peer-accountability-on-attention.html)
 
