@@ -33,7 +33,7 @@ Email: zhangyaqian [at] sjtu.edu.cn
 CS7327-033-M01 Neural Network Theory and Applications (Graduate course), 2021 spring
 
 ## Publications
-* **Yaqian Zhang**, Wooi-Boon Goh, "Reinforcement learning-based adaptive task difficulty personalization" User Modeling and User-Adapted Interaction (Accepted).[(project page)](https://yaqianzhang.github.io/2018/06/30/difficulty-adjustment-for-visual-memory-training.html)
+* **Yaqian Zhang**, Wooi-Boon Goh, "Personalized task difficulty adaptation based on reinforcement learning" User Modeling and User-Adapted Interaction (2021): https://doi.org/10.1007/s11257-021-09292-w.[(project page)](https://yaqianzhang.github.io/2018/06/30/difficulty-adjustment-for-visual-memory-training.html)
 
 * **Yaqian Zhang**, Wooi-Boon Goh, "Bootstrapped Policy Gradient for Difficulty Adaptation in Intelligent Tutoring Systems" Proceedings of the 18th International Joint Conference on Autonomous Agents and Multi-Agent Systems (AAMAS'19). [(paper)](papers/19_YaqianZhang_BootstrappedPolicyGradient_aamas.pdf) [(code)](https://github.com/YaqianZhang/Bootstrapped-policy-gradient-for-difficutly-adaptation) [(project page)](https://yaqianzhang.github.io/2018/06/30/boostrapped-policy-gradient.html)
 
