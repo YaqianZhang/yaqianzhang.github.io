@@ -2,11 +2,11 @@
 layout: default
 ---
 # Welcome to my homepage!
-I'm a Research Assitant Professor in the Department of Computer Science and Engineering, [Shanghai Jiao Tong University (SJTU)](http://en.sjtu.edu.cn/). I obtained a PhD in Compputer Science from [Nanyang Technological University (NTU)](https://www.ntu.edu.sg) in 2020. I'm currently working on developing efficient reinforcement learning algorithms to facilitate human-computer interaction.  Before coming to Singapore, I got my Bachelor degree from Shanghai Jiao Tong University, in 2015. Here is my [CV](about/CV_Yaqian_Zhang.pdf).
+I am a Research Fellow in the [Artificial Intelligence Institute, Te Ipu o te Mahara](https://ai.waikato.ac.nz/) and a member of the [Machine Learning Group](https://www.cs.waikato.ac.nz/~ml/) at the University of Waikato. Before coming to New Zealand, I worked as a Research Assitant Professor in the Department of Computer Science and Engineering, [Shanghai Jiao Tong University (SJTU)](http://en.sjtu.edu.cn/). I obtained a PhD in Compputer Science from [Nanyang Technological University (NTU)](https://www.ntu.edu.sg) in 2020 and a Bachelor degree from Shanghai Jiao Tong University, in 2015. I'm currently working on developing efficient reinforcement learning algorithms for continual learning. Here is my [CV](about/CV_Yaqian_Zhang.pdf).
 
 ## Research
 I am particularly interested in developing statistically and computationally efficient machine learning algorithms which are applicable for real-world systems. 
-To improve the sample efficiency in reinforcement learning, one idea I've explored is to bootstrap policy gradient with better/worse actions ([AAMAS 2019](papers/19_YaqianZhang_BootstrappedPolicyGradient_aamas.pdf)). This leads to fast and unbiased convergence in challenging environments with large action space and short horizon (e.g. intelligent tutoring system)([User Model User-Adap Inter (2021)](papers/21_YaqianZhang_RL_Difficulty_Adaptation.pdf)).
+To improve the sample efficiency in reinforcement learning, one idea I've explored is to bootstrap policy gradient with better/worse actions ([AAMAS 2019](papers/19_YaqianZhang_BootstrappedPolicyGradient_aamas.pdf)). This leads to fast and unbiased convergence in challenging environments with large action space and short horizon (e.g. intelligent tutoring system)([User Model User-Adap Inter (2021)](https://link.springer.com/article/10.1007/s11257-021-09292-w)).
 To reduce the computational cost in cluster analysis, I proposed to exploit curvature information of the evaluation graph. This results in  a simple yet powerful method for estimating the number of clusters in a dataset ([Information Sciences 2017](papers/17_YaqianZhang_Curvature_Cluster_InformationScience.pdf)).
 I'm also interested in applying machine learning to real-world problems. On this note, I've employed an interdisciplinary research method, to design and implement practical gaming systems ([a multiplayer game](_posts/2018-02-16-peer-accountability-on-attention.md),  [an online game](_posts/2018-06-30-difficulty-adjustment-for-visual-memory-training.md)) and conduct online and offline user studies ([Computers in Human Behavior 2018](papers/18_YaqianZhang_PeerAccountability_CHB.pdf)).
 
@@ -16,7 +16,7 @@ I'm also interested in applying machine learning to real-world problems. On this
 
 
 ## News
-* [July. 2020] Join SJTU.
+* [Jan. 2021] Our work on [RL-based personalized difficulty adaptation](https://link.springer.com/article/10.1007/s11257-021-09292-w) is accepted by the journal of _User Modeling and User-Adapted Interaction_.
 * [Dec. 2019]  Completed [my doctoral thesis defense](images/oral_defense.png).
 * [Aug. 2019]  Submitted [Ph.D. thesis](papers/Thesis_Amended_ZHANG_Yaqian.pdf) for review.
 * [Jan. 2019]   [An online visua memory game "Pals"](http://vmg23apr-env.wipf9rh8mt.ap-southeast-1.elasticbeanstalk.com/vmg_23_Apr/) is released.
@@ -27,10 +27,10 @@ I'm also interested in applying machine learning to real-world problems. On this
 * [Dec 2015] Our team won the third prize in the [NTU MAGIC Game Challenge 2015](https://magic.ntu.edu.sg/programmes/Education/Pages/MAGIC-Game-Challenge-2015.aspx)
 
 ## Contact
-Email: zhangyaqian [at] sjtu.edu.cn
+Email: yaqian_zhang at hotmai.com
 
 ## Teaching
-CS7327-033-M01 Neural Network Theory and Applications (Graduate course), 2021 spring
+CS7327-033-M01 Neural Network Theory and Applications (Graduate course), 2021 spring, SJTU
 
 ## Publications
 * **Yaqian Zhang**, Wooi-Boon Goh, "Personalized task difficulty adaptation based on reinforcement learning" User Modeling and User-Adapted Interaction (2021).[(project page)](https://yaqianzhang.github.io/2018/06/30/difficulty-adjustment-for-visual-memory-training.html)
