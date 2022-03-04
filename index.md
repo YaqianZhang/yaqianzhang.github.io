@@ -2,7 +2,9 @@
 layout: default
 ---
 # Welcome to my homepage!
-I am a Research Fellow in the [Artificial Intelligence Institute, Te Ipu o te Mahara](https://ai.waikato.ac.nz/) and a member of the [Machine Learning Group](https://www.cs.waikato.ac.nz/~ml/) at the University of Waikato. Before coming to New Zealand, I worked as a Research Assitant Professor in the Department of Computer Science and Engineering, [Shanghai Jiao Tong University (SJTU)](http://en.sjtu.edu.cn/). I obtained a PhD in Compputer Science from [Nanyang Technological University (NTU)](https://www.ntu.edu.sg) in 2020 and a Bachelor degree from Shanghai Jiao Tong University, in 2015. I'm currently working on developing efficient reinforcement learning algorithms for continual learning. Here is my [CV](about/CV_Yaqian_Zhang.pdf).
+I am a Research Fellow in the [Artificial Intelligence Institute, Te Ipu o te Mahara](https://ai.waikato.ac.nz/) and a member of the [Machine Learning Group](https://www.cs.waikato.ac.nz/~ml/) at the University of Waikato. Before coming to New Zealand, I worked as a Research Assitant Professor in the Department of Computer Science and Engineering, [Shanghai Jiao Tong University (SJTU)](http://en.sjtu.edu.cn/). I obtained a PhD in Compputer Science from [Nanyang Technological University (NTU)](https://www.ntu.edu.sg) in 2020 and a Bachelor degree from Shanghai Jiao Tong University, in 2015. I'm currently working on developing efficient reinforcement learning algorithms for continual learning. 
+
+
 
 ## Research
 I am particularly interested in developing statistically and computationally efficient machine learning algorithms which are applicable for real-world systems. 
