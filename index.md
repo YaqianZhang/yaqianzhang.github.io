@@ -17,17 +17,6 @@ I'm also interested in applying machine learning to real-world problems. On this
 
 
 
-## News
-* [Jan. 2021] Our work on [RL-based personalized difficulty adaptation](https://link.springer.com/article/10.1007/s11257-021-09292-w) is accepted by the journal of _User Modeling and User-Adapted Interaction_.
-* [Dec. 2019]  Completed [my doctoral thesis defense](images/oral_defense.png).
-* [Aug. 2019]  Submitted [Ph.D. thesis](papers/Thesis_Amended_ZHANG_Yaqian.pdf) for review.
-* [Jan. 2019]   [An online visua memory game "Pals"](http://vmg23apr-env.wipf9rh8mt.ap-southeast-1.elasticbeanstalk.com/vmg_23_Apr/) is released.
-* [Dec. 2018]  Our work on [Bootstrapped Policy Gradient](papers/19_YaqianZhang_BootstrappedPolicyGradient_aamas.pdf) is accepted at AAMAS'19.
-* [May. 2018]  Our work on [Cooperative Gameplay](papers/18_YaqianZhang_PeerAccountability_CHB.pdf) is accepted by the journal of _Computers in Human Behavior_.
-* [Dec. 2017]  Our [Stroop Effect game 2.0](https://yaqianzhang.github.io/2018/02/16/peer-accountability-on-attention.html) (A multiplayer tablet-based cogtnive game) is launched.
-* [May. 2017]  Our work on [Cluster Number Detection](papers/17_YaqianZhang_Curvature_Cluster_InformationScience.pdf) is accepted by the journal of _Information Sciences_.
-* [Dec 2015] Our team won the third prize in the [NTU MAGIC Game Challenge 2015](https://magic.ntu.edu.sg/programmes/Education/Pages/MAGIC-Game-Challenge-2015.aspx)
-
 ## Contact
 Email: yaqian_zhang at hotmail.com
 
