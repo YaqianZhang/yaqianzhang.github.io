@@ -1,0 +1,68 @@
+# Newest first. Fields: title, authors, venue, year, and any of:
+# paper, code, project, doi (links), award (highlighted badge). Your name (see author_names in profile.yml) is bolded automatically.
+- title: Agreement-gated distillation for selective forgetting in knowledge revision
+  authors: Y. Zhang, B. Pfahringer, E. Frank, A. Bifet
+  venue: NeurIPS Workshop on Autonomous Machine Learning Research (accepted)
+  year: 2026
+  paper: https://openreview.net/forum?id=7Bq6Ety61d
+
+- title: "Rethinking memory in continual learning: Beyond a monolithic store of the past"
+  authors: Y. Zhang, B. Pfahringer, E. Frank, A. Bifet
+  venue: Transactions on Machine Learning Research (TMLR)
+  award: J2C Certification
+  year: 2025
+  paper: https://openreview.net/forum?id=wgjVUIYyOD
+
+- title: Kolmogorov-Arnold networks still catastrophically forget but differently from MLP
+  authors: A. Lee, H. M. Gomes, Y. Zhang, W. B. Kleijn
+  venue: Proceedings of the 39th AAAI Conference on Artificial Intelligence (AAAI)
+  year: 2025
+  doi: 10.1609/aaai.v39i17.33986
+
+- title: "Look at me, no replay! SurpriseNet: Anomaly detection inspired class incremental learning"
+  authors: A. Lee, Y. Zhang, H. M. Gomes, A. Bifet, B. Pfahringer
+  venue: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM), 4038–4042
+  year: 2023
+
+- title: "Repeated augmented rehearsal: A simple but strong baseline for online continual learning"
+  authors: Y. Zhang, B. Pfahringer, E. Frank, A. Bifet, N. J. S. Lim, Y. Jia
+  venue: Advances in Neural Information Processing Systems 35 (NeurIPS)
+  year: 2022
+  paper: https://arxiv.org/abs/2209.13917
+
+- title: Balancing the stability-plasticity dilemma with online stability tuning for continual learning
+  authors: A. Lee, H. M. Gomes, Y. Zhang
+  venue: International Joint Conference on Neural Networks (IJCNN)
+  year: 2022
+  doi: 10.1109/IJCNN55064.2022.9892055
+
+- title: Personalized task difficulty adaptation based on reinforcement learning
+  authors: Y. Zhang, W. B. Goh
+  venue: User Modeling and User-Adapted Interaction 31(4), 753–784
+  year: 2021
+  doi: 10.1007/s11257-021-09292-w
+  project: /2018/06/30/difficulty-adjustment-for-visual-memory-training.html
+
+- title: Bootstrapped policy gradient for difficulty adaptation in intelligent tutoring systems
+  authors: Y. Zhang, W. B. Goh
+  venue: Proceedings of the 18th International Conference on Autonomous Agents and MultiAgent Systems (AAMAS)
+  year: 2019
+  paper: https://www.ifaamas.org/Proceedings/aamas2019/pdfs/p711.pdf
+  code: https://github.com/YaqianZhang/Bootstrapped-policy-gradient-for-difficutly-adaptation
+  project: /2018/06/30/boostrapped-policy-gradient.html
+
+- title: The influence of peer accountability on attention during gameplay
+  authors: Y. Zhang, W. B. Goh
+  venue: Computers in Human Behavior 84, 18–28
+  year: 2018
+  paper: /papers/18_YaqianZhang_PeerAccountability_CHB.pdf
+  doi: 10.1016/j.chb.2018.02.021
+  project: /2018/02/16/peer-accountability-on-attention.html
+
+- title: Curvature-based method for determining the number of clusters
+  authors: Y. Zhang, J. Mańdziuk, C. H. Quek, W. B. Goh
+  venue: Information Sciences 415, 414–428
+  year: 2017
+  paper: /papers/17_YaqianZhang_Curvature_Cluster_InformationScience.pdf
+  doi: 10.1016/j.ins.2017.05.024
+  project: /2017/05/16/determining-the-number-of-clusters.html

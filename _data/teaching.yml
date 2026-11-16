@@ -1,0 +1,9 @@
+# Newest first. `url` is optional and links the course name.
+- course: COSC442-27S2 Natural Language Processing
+  term: Semester 2, 2027
+  institution: University of Canterbury
+  url: https://courseinfo.canterbury.ac.nz/GetCourseDetails.aspx?course=COSC442&year=2027
+
+- course: CS7327-033-M01 Neural Network Theory and Applications (Graduate course)
+  term: Spring 2021
+  institution: Shanghai Jiao Tong University

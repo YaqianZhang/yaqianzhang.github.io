@@ -1,0 +1,22 @@
+# Sidebar / header information
+name: Yaqian Zhang
+# Roles shown under your name, in order. `url` is optional.
+roles:
+  - title: Incoming Lecturer in Artificial Intelligence
+    org: University of Canterbury · January 2027
+    url: https://www.canterbury.ac.nz/
+  - title: Honorary Research Associate
+    org: Artificial Intelligence Institute · University of Waikato
+    url: https://ai.waikato.ac.nz/
+photo: /images/photo-avatar.jpg   # cropped from photo-informal2.jpg; previous photo: /images/photo-informal.jpg
+author_names: [Yaqian Zhang, Y. Zhang]   # bolded in publication author lists
+email: yaqian_zhang at hotmail.com     # shown as text, written this way to reduce spam
+
+# Links shown under the photo. Delete a line to hide it.
+links:
+  - label: Google Scholar
+    url: https://scholar.google.com/citations?user=DezNG3MAAAAJ
+  - label: GitHub
+    url: https://github.com/yaqianzhang
+  # - label: CV
+  #   url: /files/cv.pdf

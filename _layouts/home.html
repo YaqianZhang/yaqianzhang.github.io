@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<section class="bio">
+  {{ content }}
+</section>
+
+<section id="research">
+  <h2>Research</h2>
+  {% capture research %}{% include research.md %}{% endcapture %}
+  {{ research | markdownify }}
+</section>
+
+<section id="publications">
+  <h2>Publications</h2>
+  <ol class="pubs">
+    {% for pub in site.data.publications %}{% include publication.html pub=pub %}{% endfor %}
+  </ol>
+</section>
+
+<section id="projects">
+  <h2>Selected projects</h2>
+  {% include project-grid.html %}
+</section>
+
+<section id="teaching">
+  <h2>Teaching</h2>
+  <ul class="plain">
+    {% for t in site.data.teaching %}
+    <li>{% if t.url %}<a href="{{ t.url }}">{{ t.course }}</a>{% else %}{{ t.course }}{% endif %} — {{ t.institution }}, {{ t.term }}</li>
+    {% endfor %}
+  </ul>
+</section>

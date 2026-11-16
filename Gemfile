@@ -1,5 +1,5 @@
-# frozen_string_literal: true
+source "https://rubygems.org"
 
-source 'https://rubygems.org'
-
-gemspec
+# Matches the versions GitHub Pages uses, so local preview == live site.
+gem "github-pages", group: :jekyll_plugins
+gem "webrick"

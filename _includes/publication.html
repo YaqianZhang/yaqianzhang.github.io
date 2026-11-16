@@ -1,0 +1,14 @@
+{% assign pub = include.pub %}
+{% assign authors = pub.authors %}
+{% for n in site.data.profile.author_names %}{% capture b %}<strong>{{ n }}</strong>{% endcapture %}{% assign authors = authors | replace: n, b %}{% endfor %}
+<li class="pub">
+  <div class="pub-title">{{ pub.title }}</div>
+  <div class="pub-authors">{{ authors }}</div>
+  <div class="pub-venue"><em>{{ pub.venue }}</em>, {{ pub.year }}{% if pub.award %} <span class="award">★ {{ pub.award }}</span>{% endif %}</div>
+  <div class="pub-links">
+    {% if pub.paper %}<a href="{{ pub.paper | relative_url }}">paper</a>{% endif %}
+    {% if pub.code %}<a href="{{ pub.code }}">code</a>{% endif %}
+    {% if pub.project %}<a href="{{ pub.project | relative_url }}">project</a>{% endif %}
+    {% if pub.doi %}<a href="https://doi.org/{{ pub.doi }}">doi</a>{% endif %}
+  </div>
+</li>

@@ -1,0 +1,20 @@
+{% assign p = site.data.profile %}
+<aside class="sidebar">
+  <a href="{{ '/' | relative_url }}"><img class="avatar" src="{{ p.photo | relative_url }}" alt="{{ p.name }}"></a>
+  <h1 class="name"><a href="{{ '/' | relative_url }}">{{ p.name }}</a></h1>
+  {% for r in p.roles %}
+  <p class="role{% if forloop.first %} role-primary{% else %} role-secondary{% endif %}"><span class="role-title">{{ r.title }}</span><br>
+    {% if r.url %}<a href="{{ r.url }}">{{ r.org }}</a>{% else %}{{ r.org }}{% endif %}
+  </p>
+  {% endfor %}
+  <nav>
+    <a href="{{ '/#research' | relative_url }}">Research</a>
+    <a href="{{ '/#publications' | relative_url }}">Publications</a>
+    <a href="{{ '/projects/' | relative_url }}">Projects</a>
+    <a href="{{ '/#teaching' | relative_url }}">Teaching</a>
+  </nav>
+  <ul class="links">
+    {% for l in p.links %}<li><a href="{{ l.url | relative_url }}">{{ l.label }}</a></li>{% endfor %}
+  </ul>
+  {% if p.email %}<p class="email">{{ p.email }}</p>{% endif %}
+</aside>

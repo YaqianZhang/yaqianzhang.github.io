@@ -1,0 +1,78 @@
+# Config for Pages CMS (https://pagescms.org) — a free web editor for this repo.
+media:
+  input: images
+  output: /images
+
+content:
+  - name: home
+    label: Home page (bio)
+    type: file
+    path: index.md
+    fields:
+      - { name: layout, type: string, hidden: true, default: home }
+      - { name: title, type: string, hidden: true, default: Home }
+      - { name: body, label: Bio, type: rich-text }
+
+  - name: profile
+    label: Profile
+    type: file
+    path: _data/profile.yml
+    fields:
+      - { name: name, type: string }
+      - name: roles
+        type: object
+        list: true
+        fields:
+          - { name: title, type: string }
+          - { name: org, type: string }
+          - { name: url, type: string }
+      - { name: photo, type: image }
+      - { name: email, type: string }
+      - name: links
+        type: object
+        list: true
+        fields:
+          - { name: label, type: string }
+          - { name: url, type: string }
+
+  - name: publications
+    label: Publications
+    type: file
+    path: _data/publications.yml
+    list: true
+    fields:
+      - { name: title, type: string }
+      - { name: authors, type: string }
+      - { name: venue, type: string }
+      - { name: year, type: number }
+      - { name: paper, type: string, description: "URL, or /papers/file.pdf" }
+      - { name: code, type: string }
+      - { name: project, type: string }
+      - { name: doi, type: string }
+      - { name: award, type: string, description: "Optional, e.g. Best Paper Award" }
+
+  - name: teaching
+    label: Teaching
+    type: file
+    path: _data/teaching.yml
+    list: true
+    fields:
+      - { name: course, type: string }
+      - { name: term, type: string }
+      - { name: institution, type: string }
+      - { name: url, type: string }
+
+  - name: projects
+    label: Projects
+    type: collection
+    path: _posts
+    filename: "{year}-{month}-{day}-{primary}.md"
+    view:
+      fields: [title, date, label]
+    fields:
+      - { name: layout, type: string, hidden: true, default: post }
+      - { name: title, type: string }
+      - { name: date, type: date }
+      - { name: label, type: string, description: "Short tag, e.g. Reinforcement Learning" }
+      - { name: imgstr, label: Thumbnail, type: image }
+      - { name: body, type: rich-text }

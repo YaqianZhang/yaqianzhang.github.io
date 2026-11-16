@@ -1,0 +1,9 @@
+<div class="grid">
+  {% for post in site.posts %}
+  <a class="card" href="{{ post.url | relative_url }}">
+    {% if post.imgstr %}<img src="{{ post.imgstr | relative_url }}" alt="" loading="lazy">{% endif %}
+    <span class="label">{{ post.label }}</span>
+    <span class="card-title">{{ post.title }}</span>
+  </a>
+  {% endfor %}
+</div>

@@ -1,5 +1,22 @@
+# Site settings. After editing this file, restart the local preview server.
 title: Yaqian Zhang
-description: Research Fellow, UoW
-show_downloads: true
-google_analytics:
-theme: jekyll-theme-dinky
+description: Incoming Lecturer in Artificial Intelligence, University of Canterbury
+url: https://yaqianzhang.github.io
+baseurl: ""
+lang: en
+
+plugins:
+  - jekyll-seo-tag
+
+markdown: kramdown
+permalink: /:year/:month/:day/:title.html
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - "*.zip"
+  - "*.txt"
+  - .pages.yml
+  - vendor
+  - preview.sh
