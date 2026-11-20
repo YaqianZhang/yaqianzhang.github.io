@@ -1,6 +1,6 @@
-Humans and other animals are natural lifelong learners. We acquire new skills, revise old beliefs, and adapt to a constantly changing world. For AI systems, this remains a fundamental challenge: learning something new can unexpectedly disrupt what a model already knows, often in ways that are hard to predict.
+Biological neural networks are natural lifelong learners. They can acquire new skills and capabilities in the face of ever-changing and growing experience. For artificial neural networks, this remains difficult: learning something new can unexpectedly disrupt what a model already knows, often in ways that are hard to predict.
 
-I want to understand how intelligent systems learn and grow through experience. What determines whether new learning builds on existing knowledge or interferes with it? When is forgetting a failure, and when is it a necessary part of adaptation? And as AI systems continue to change, how can we keep them predictable, controllable, and beneficial to the people who interact with them?
+I want to understand how intelligent systems learn and grow from incoming experience and data. What determines whether new learning builds on existing knowledge or interferes with it? When is forgetting a failure, and when is it a necessary part of adaptation? And as AI systems move from static deployment to continual adaptation, how can we keep them predictable, controllable, and beneficial to the people who interact with them?
 
 My work brings together three closely related research areas:
 
